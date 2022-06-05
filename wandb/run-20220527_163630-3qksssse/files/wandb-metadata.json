@@ -1,0 +1,24 @@
+{
+    "os": "Linux-5.4.0-1074-azure-x86_64-with-glibc2.17",
+    "python": "3.8.13",
+    "heartbeatAt": "2022-05-27T16:36:31.814454",
+    "startedAt": "2022-05-27T16:36:30.703726",
+    "docker": null,
+    "gpu": "Tesla P100-PCIE-16GB",
+    "gpu_count": 1,
+    "cpu_count": 6,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "main.py",
+    "codePath": "invariant_discriminator/main.py",
+    "git": {
+        "remote": "https://github.com/kenkong21/crystal-generation.git",
+        "commit": "88296e5c6252dc0155cf0686dd7684a27d8a22c9"
+    },
+    "email": "vofhqn@gmail.com",
+    "root": "/home/yiczho/kly20",
+    "host": "GCRAZGDL0162",
+    "username": "FAREAST.yiczho",
+    "executable": "/anaconda/envs/cdvae/bin/python"
+}

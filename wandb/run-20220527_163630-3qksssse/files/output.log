@@ -1,0 +1,32 @@
+torch.Size([64, 20, 3])
+=======================================================================
+step  0  : finished,    time cost :  60.48126268386841 s
+loss :  2.3947465419769287
+=======================================================================
+torch.Size([64, 20, 3])
+=======================================================================
+step  1  : finished,    time cost :  181.87677025794983 s
+loss :  -0.02271874248981476
+=======================================================================
+torch.Size([64, 20, 3])
+=======================================================================
+step  2  : finished,    time cost :  80.26458287239075 s
+loss :  2.1172537803649902
+=======================================================================
+torch.Size([64, 20, 3])
+Traceback (most recent call last):
+  File "main.py", line 110, in <module>
+    loss=discriminator.compute_loss_and_train(conforms,potentials)
+  File "/home/yiczho/kly20/invariant_discriminator/discriminator.py", line 72, in compute_loss_and_train
+    score_loss.backward()
+  File "/anaconda/envs/cdvae/lib/python3.8/site-packages/torch/_tensor.py", line 255, in backward
+    torch.autograd.backward(self, gradient, retain_graph, create_graph, inputs=inputs)
+  File "/anaconda/envs/cdvae/lib/python3.8/site-packages/torch/autograd/__init__.py", line 147, in backward
+    Variable._execution_engine.run_backward(
+  File "/anaconda/envs/cdvae/lib/python3.8/site-packages/wandb/wandb_torch.py", line 264, in <lambda>
+    handle = var.register_hook(lambda grad: _callback(grad, log_track))
+  File "/anaconda/envs/cdvae/lib/python3.8/site-packages/wandb/wandb_torch.py", line 262, in _callback
+    self.log_tensor_stats(grad.data, name)
+  File "/anaconda/envs/cdvae/lib/python3.8/site-packages/wandb/wandb_torch.py", line 213, in log_tensor_stats
+    tensor = flat.histc(bins=self._num_bins, min=tmin, max=tmax)
+RuntimeError: max must be larger than min
