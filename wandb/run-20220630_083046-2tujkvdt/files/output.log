@@ -1,0 +1,53 @@
+=======================================================================
+step  0  : finished,    time cost :  88.79389834403992 s
+=======================================================================
+=======================================================================
+step  1  : finished,    time cost :  95.33310747146606 s
+=======================================================================
+/home/v-linyukong/miniconda3/envs/crystal_generation/lib/python3.8/site-packages/ase/optimize/bfgs.py:145: RuntimeWarning: divide by zero encountered in true_divide
+  self.H -= np.outer(df, df) / a + np.outer(dg, dg) / b
+=======================================================================
+step  2  : finished,    time cost :  188.34257674217224 s
+=======================================================================
+=======================================================================
+step  3  : finished,    time cost :  135.33557319641113 s
+=======================================================================
+=======================================================================
+step  4  : finished,    time cost :  76.07831048965454 s
+=======================================================================
+Traceback (most recent call last):
+  File "main.py", line 125, in <module>
+    _,relax_energy=batch_relax(conforms,args.max_relax_steps,sampled_batch_size)
+  File "/home/v-linyukong/work/conform_discriminator/bfgs_relax.py", line 21, in batch_relax
+    steps,energy=relax(pos,max_steps)
+  File "/home/v-linyukong/work/conform_discriminator/bfgs_relax.py", line 13, in relax
+    dyn.run(fmax=0.0001,steps=max_steps)
+  File "/home/v-linyukong/miniconda3/envs/crystal_generation/lib/python3.8/site-packages/ase/optimize/optimize.py", line 269, in run
+    return Dynamics.run(self)
+  File "/home/v-linyukong/miniconda3/envs/crystal_generation/lib/python3.8/site-packages/ase/optimize/optimize.py", line 156, in run
+    for converged in Dynamics.irun(self):
+  File "/home/v-linyukong/miniconda3/envs/crystal_generation/lib/python3.8/site-packages/ase/optimize/optimize.py", line 132, in irun
+    while not self.converged() and self.nsteps < self.max_steps:
+  File "/home/v-linyukong/miniconda3/envs/crystal_generation/lib/python3.8/site-packages/ase/optimize/optimize.py", line 274, in converged
+    forces = self.atoms.get_forces()
+  File "/home/v-linyukong/miniconda3/envs/crystal_generation/lib/python3.8/site-packages/ase/atoms.py", line 788, in get_forces
+    forces = self._calc.get_forces(self)
+  File "/home/v-linyukong/miniconda3/envs/crystal_generation/lib/python3.8/site-packages/ase/calculators/abc.py", line 23, in get_forces
+    return self.get_property('forces', atoms)
+  File "/home/v-linyukong/miniconda3/envs/crystal_generation/lib/python3.8/site-packages/ase/calculators/calculator.py", line 731, in get_property
+    system_changes = self.check_state(atoms)
+  File "/home/v-linyukong/miniconda3/envs/crystal_generation/lib/python3.8/site-packages/ase/calculators/calculator.py", line 705, in check_state
+    return compare_atoms(self.atoms, atoms, tol=tol,
+  File "/home/v-linyukong/miniconda3/envs/crystal_generation/lib/python3.8/site-packages/ase/calculators/calculator.py", line 113, in compare_atoms
+    if not equal(atoms1.arrays[prop], atoms2.arrays[prop], atol=tol):
+  File "/home/v-linyukong/miniconda3/envs/crystal_generation/lib/python3.8/site-packages/ase/calculators/calculator.py", line 232, in equal
+    return np.allclose(a, b, rtol=rtol, atol=atol)
+  File "<__array_function__ internals>", line 180, in allclose
+  File "/home/v-linyukong/miniconda3/envs/crystal_generation/lib/python3.8/site-packages/numpy/core/numeric.py", line 2251, in allclose
+    res = all(isclose(a, b, rtol=rtol, atol=atol, equal_nan=equal_nan))
+  File "<__array_function__ internals>", line 180, in isclose
+  File "/home/v-linyukong/miniconda3/envs/crystal_generation/lib/python3.8/site-packages/numpy/core/numeric.py", line 2361, in isclose
+    return within_tol(x, y, atol, rtol)
+  File "/home/v-linyukong/miniconda3/envs/crystal_generation/lib/python3.8/site-packages/numpy/core/numeric.py", line 2342, in within_tol
+    return less_equal(abs(x-y), atol + rtol * abs(y))
+KeyboardInterrupt

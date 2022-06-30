@@ -1,0 +1,36 @@
+Traceback (most recent call last):
+  File "main.py", line 125, in <module>
+    _,relax_energy=batch_relax(conforms,args.max_relax_steps,args.batch_size)
+  File "/home/v-linyukong/work/conform_discriminator/bfgs_relax.py", line 21, in batch_relax
+    steps,energy=relax(pos,max_steps)
+  File "/home/v-linyukong/work/conform_discriminator/bfgs_relax.py", line 13, in relax
+    dyn.run(fmax=0.0001,steps=max_steps)
+  File "/home/v-linyukong/miniconda3/envs/crystal_generation/lib/python3.8/site-packages/ase/optimize/optimize.py", line 269, in run
+    return Dynamics.run(self)
+  File "/home/v-linyukong/miniconda3/envs/crystal_generation/lib/python3.8/site-packages/ase/optimize/optimize.py", line 156, in run
+    for converged in Dynamics.irun(self):
+  File "/home/v-linyukong/miniconda3/envs/crystal_generation/lib/python3.8/site-packages/ase/optimize/optimize.py", line 143, in irun
+    self.log()
+  File "/home/v-linyukong/miniconda3/envs/crystal_generation/lib/python3.8/site-packages/ase/optimize/optimize.py", line 283, in log
+    forces = self.atoms.get_forces()
+  File "/home/v-linyukong/miniconda3/envs/crystal_generation/lib/python3.8/site-packages/ase/atoms.py", line 788, in get_forces
+    forces = self._calc.get_forces(self)
+  File "/home/v-linyukong/miniconda3/envs/crystal_generation/lib/python3.8/site-packages/ase/calculators/abc.py", line 23, in get_forces
+    return self.get_property('forces', atoms)
+  File "/home/v-linyukong/miniconda3/envs/crystal_generation/lib/python3.8/site-packages/ase/calculators/calculator.py", line 731, in get_property
+    system_changes = self.check_state(atoms)
+  File "/home/v-linyukong/miniconda3/envs/crystal_generation/lib/python3.8/site-packages/ase/calculators/calculator.py", line 705, in check_state
+    return compare_atoms(self.atoms, atoms, tol=tol,
+  File "/home/v-linyukong/miniconda3/envs/crystal_generation/lib/python3.8/site-packages/ase/calculators/calculator.py", line 113, in compare_atoms
+    if not equal(atoms1.arrays[prop], atoms2.arrays[prop], atol=tol):
+  File "/home/v-linyukong/miniconda3/envs/crystal_generation/lib/python3.8/site-packages/ase/calculators/calculator.py", line 232, in equal
+    return np.allclose(a, b, rtol=rtol, atol=atol)
+  File "<__array_function__ internals>", line 180, in allclose
+  File "/home/v-linyukong/miniconda3/envs/crystal_generation/lib/python3.8/site-packages/numpy/core/numeric.py", line 2251, in allclose
+    res = all(isclose(a, b, rtol=rtol, atol=atol, equal_nan=equal_nan))
+  File "<__array_function__ internals>", line 180, in all
+  File "/home/v-linyukong/miniconda3/envs/crystal_generation/lib/python3.8/site-packages/numpy/core/fromnumeric.py", line 2487, in all
+    return _wrapreduction(a, np.logical_and, 'all', axis, None, out,
+  File "/home/v-linyukong/miniconda3/envs/crystal_generation/lib/python3.8/site-packages/numpy/core/fromnumeric.py", line 86, in _wrapreduction
+    return ufunc.reduce(obj, axis, dtype, out, **passkwargs)
+KeyboardInterrupt

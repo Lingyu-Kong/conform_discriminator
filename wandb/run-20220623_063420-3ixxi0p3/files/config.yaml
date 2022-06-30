@@ -1,0 +1,312 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.10.33
+    framework: torch
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    python_version: 3.8.13
+    t:
+      1:
+      - 1
+      2:
+      - 1
+      3:
+      - 1
+      4: 3.8.13
+      5: 0.10.33
+      8:
+      - 5
+    visualize:
+      plot_id 0:
+        panel_config:
+          fieldSettings:
+            x: x
+            y: y
+          panelDefId: wandb/scatter/v0
+          stringSettings:
+            title: Energy vs Reward Scatter Plot
+          transform:
+            name: tableWithLeafColNames
+          userQuery:
+            queryFields:
+            - args:
+              - name: runSets
+                value: ${runSets}
+              fields:
+              - fields: []
+                name: id
+              - fields: []
+                name: name
+              - fields: []
+                name: _defaultColorIndex
+              - args:
+                - name: tableKey
+                  value: plot_id 0_table
+                fields: []
+                name: summaryTable
+              name: runSets
+        panel_type: Vega2
+      plot_id 10:
+        panel_config:
+          fieldSettings:
+            x: x
+            y: y
+          panelDefId: wandb/scatter/v0
+          stringSettings:
+            title: Energy vs Reward Scatter Plot
+          transform:
+            name: tableWithLeafColNames
+          userQuery:
+            queryFields:
+            - args:
+              - name: runSets
+                value: ${runSets}
+              fields:
+              - fields: []
+                name: id
+              - fields: []
+                name: name
+              - fields: []
+                name: _defaultColorIndex
+              - args:
+                - name: tableKey
+                  value: plot_id 10_table
+                fields: []
+                name: summaryTable
+              name: runSets
+        panel_type: Vega2
+      plot_id 15:
+        panel_config:
+          fieldSettings:
+            x: x
+            y: y
+          panelDefId: wandb/scatter/v0
+          stringSettings:
+            title: Energy vs Reward Scatter Plot
+          transform:
+            name: tableWithLeafColNames
+          userQuery:
+            queryFields:
+            - args:
+              - name: runSets
+                value: ${runSets}
+              fields:
+              - fields: []
+                name: id
+              - fields: []
+                name: name
+              - fields: []
+                name: _defaultColorIndex
+              - args:
+                - name: tableKey
+                  value: plot_id 15_table
+                fields: []
+                name: summaryTable
+              name: runSets
+        panel_type: Vega2
+      plot_id 20:
+        panel_config:
+          fieldSettings:
+            x: x
+            y: y
+          panelDefId: wandb/scatter/v0
+          stringSettings:
+            title: Energy vs Reward Scatter Plot
+          transform:
+            name: tableWithLeafColNames
+          userQuery:
+            queryFields:
+            - args:
+              - name: runSets
+                value: ${runSets}
+              fields:
+              - fields: []
+                name: id
+              - fields: []
+                name: name
+              - fields: []
+                name: _defaultColorIndex
+              - args:
+                - name: tableKey
+                  value: plot_id 20_table
+                fields: []
+                name: summaryTable
+              name: runSets
+        panel_type: Vega2
+      plot_id 25:
+        panel_config:
+          fieldSettings:
+            x: x
+            y: y
+          panelDefId: wandb/scatter/v0
+          stringSettings:
+            title: Energy vs Reward Scatter Plot
+          transform:
+            name: tableWithLeafColNames
+          userQuery:
+            queryFields:
+            - args:
+              - name: runSets
+                value: ${runSets}
+              fields:
+              - fields: []
+                name: id
+              - fields: []
+                name: name
+              - fields: []
+                name: _defaultColorIndex
+              - args:
+                - name: tableKey
+                  value: plot_id 25_table
+                fields: []
+                name: summaryTable
+              name: runSets
+        panel_type: Vega2
+      plot_id 30:
+        panel_config:
+          fieldSettings:
+            x: x
+            y: y
+          panelDefId: wandb/scatter/v0
+          stringSettings:
+            title: Energy vs Reward Scatter Plot
+          transform:
+            name: tableWithLeafColNames
+          userQuery:
+            queryFields:
+            - args:
+              - name: runSets
+                value: ${runSets}
+              fields:
+              - fields: []
+                name: id
+              - fields: []
+                name: name
+              - fields: []
+                name: _defaultColorIndex
+              - args:
+                - name: tableKey
+                  value: plot_id 30_table
+                fields: []
+                name: summaryTable
+              name: runSets
+        panel_type: Vega2
+      plot_id 35:
+        panel_config:
+          fieldSettings:
+            x: x
+            y: y
+          panelDefId: wandb/scatter/v0
+          stringSettings:
+            title: Energy vs Reward Scatter Plot
+          transform:
+            name: tableWithLeafColNames
+          userQuery:
+            queryFields:
+            - args:
+              - name: runSets
+                value: ${runSets}
+              fields:
+              - fields: []
+                name: id
+              - fields: []
+                name: name
+              - fields: []
+                name: _defaultColorIndex
+              - args:
+                - name: tableKey
+                  value: plot_id 35_table
+                fields: []
+                name: summaryTable
+              name: runSets
+        panel_type: Vega2
+      plot_id 40:
+        panel_config:
+          fieldSettings:
+            x: x
+            y: y
+          panelDefId: wandb/scatter/v0
+          stringSettings:
+            title: Energy vs Reward Scatter Plot
+          transform:
+            name: tableWithLeafColNames
+          userQuery:
+            queryFields:
+            - args:
+              - name: runSets
+                value: ${runSets}
+              fields:
+              - fields: []
+                name: id
+              - fields: []
+                name: name
+              - fields: []
+                name: _defaultColorIndex
+              - args:
+                - name: tableKey
+                  value: plot_id 40_table
+                fields: []
+                name: summaryTable
+              name: runSets
+        panel_type: Vega2
+      plot_id 45:
+        panel_config:
+          fieldSettings:
+            x: x
+            y: y
+          panelDefId: wandb/scatter/v0
+          stringSettings:
+            title: Energy vs Reward Scatter Plot
+          transform:
+            name: tableWithLeafColNames
+          userQuery:
+            queryFields:
+            - args:
+              - name: runSets
+                value: ${runSets}
+              fields:
+              - fields: []
+                name: id
+              - fields: []
+                name: name
+              - fields: []
+                name: _defaultColorIndex
+              - args:
+                - name: tableKey
+                  value: plot_id 45_table
+                fields: []
+                name: summaryTable
+              name: runSets
+        panel_type: Vega2
+      plot_id 5:
+        panel_config:
+          fieldSettings:
+            x: x
+            y: y
+          panelDefId: wandb/scatter/v0
+          stringSettings:
+            title: Energy vs Reward Scatter Plot
+          transform:
+            name: tableWithLeafColNames
+          userQuery:
+            queryFields:
+            - args:
+              - name: runSets
+                value: ${runSets}
+              fields:
+              - fields: []
+                name: id
+              - fields: []
+                name: name
+              - fields: []
+                name: _defaultColorIndex
+              - args:
+                - name: tableKey
+                  value: plot_id 5_table
+                fields: []
+                name: summaryTable
+              name: runSets
+        panel_type: Vega2

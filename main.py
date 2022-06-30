@@ -4,9 +4,11 @@ from discriminator import Discriminator
 import argparse
 import torch
 import torch.nn as nn
-from bfgs_relax import get_conforms_potential, batch_relax
+from bfgs_relax import batch_relax
+from utils.plot_utils import plot_smoother
 import wandb
 import time
+import numpy as np
 
 wandb.login()
 wandb.init(project="crystall discriminator", entity="kly20")
@@ -34,7 +36,7 @@ parser.add_argument("--target_latent_size", type=int, default=128)
 parser.add_argument("--target_num_layers", type=int, default=4)
 parser.add_argument("--target_out_put_size", type=int, default=1)
 
-parser.add_argument("--max_relax_steps", type=int, default=1500)
+parser.add_argument("--max_relax_steps", type=int, default=200)
 parser.add_argument("--threshold", type=float, default=0.5)
 parser.add_argument("--potential_scale", type=int, default=100)
 
@@ -46,12 +48,6 @@ args = parser.parse_args()
 args.cuda = args.cuda and torch.cuda.is_available()
 
 device = torch.device("cuda")
-
-# intrinsic_target_params = {"device": device,
-#                            "input_size": args.num_atoms*3,
-#                            "latent_size": args.target_latent_size,
-#                            "output_size": args.target_out_put_size,
-#                            "num_layers": args.target_num_layers}
 
 intrinsic_target_params={"device": device,
                           "lr": args.lr,
@@ -87,7 +83,7 @@ intrinsic_model_params = {"device": device,
                           "tanh": args.tanh,
                           "last_sigmoid": False}
 
-score_model_params = {"device": device,
+extrinsic_model_params = {"device": device,
                       "lr": args.lr,
                       "num_nodes": args.num_atoms,
                       "in_node_attr_dim": args.in_node_attr_dim,
@@ -102,78 +98,64 @@ score_model_params = {"device": device,
                       "attention": args.attention,
                       "normalize": args.normalize,
                       "tanh": args.tanh,
-                      "last_sigmoid": True}
+                      "last_sigmoid": False}
 
 
 wandb.config = {
     "training_steps": args.num_steps,
     "batch_size": args.batch_size,
     "num_atoms": args.num_atoms,
+    "pos_scale": args.pos_scale,
     "max_relax_steps": args.max_relax_steps}
 
 
-def plot_smoother(batch_steps, batch_energy):
-    energies = []
-    steps = []
-    for i in range(len(batch_steps)):
-        if(batch_energy[i] <= 5):
-            energies.append(batch_energy[i])
-            steps.append(batch_steps[i])
-    return steps, energies
-
-
 if __name__ == "__main__":
-    sampler = Sampler(args.num_atoms, args.pos_scale)
+    sampler = Sampler(args.num_atoms, args.pos_scale,args.threshold)
     discriminator = Discriminator(intrinsic_target_params,
                                   intrinsic_model_params,
-                                  score_model_params,
+                                  extrinsic_model_params,
                                   args.num_atoms,
-                                  args.batch_size,
                                   device)
 
-    # wandb.watch(discriminator.score_model,log="all",log_freq=1)
+    wandb.watch(discriminator.intrinsic_target_model,log="all",log_freq=5)
 
     for i in range(args.num_steps):
         start_time = time.time()
-        conforms = sampler.batch_sample(args.batch_size)
-        potentials = get_conforms_potential(
-            conforms, args.max_relax_steps, args.batch_size, args.potential_scale)
-        loss, intrinsic_reward, reward = discriminator.compute_loss_and_train(
-            conforms, potentials)
+        conforms,sampled_batch_size = sampler.batch_sample(args.batch_size)
+        _,relax_energy=batch_relax(conforms,args.max_relax_steps,sampled_batch_size)
+        relax_energy=torch.FloatTensor(relax_energy).unsqueeze(-1)
+        intrinsic_loss,extrinsic_loss,intrinsic_reward,extrinsic_reward = discriminator.compute_loss_and_train(conforms, relax_energy,sampled_batch_size)
         end_time = time.time()
 
-        if i % 10 == 0:
-            comforms = sampler.batch_sample(args.performance_log_size)
-            filted_conforms = discriminator.filt(comforms, args.threshold)
-            batch_steps, batch_energy = batch_relax(
-                filted_conforms, args.max_relax_steps, filted_conforms.shape[0])
-            batch_steps, batch_energy = plot_smoother(
-                batch_steps, batch_energy)
-            data = [[x, y] for (x, y) in zip(batch_steps, batch_energy)]
+        wandb.log({"intrinsic_loss": intrinsic_loss,
+                       "extrinsic_loss": extrinsic_loss,
+                       "extrinsic reward": extrinsic_reward,
+                       "intrinsic reward": intrinsic_reward, })
+
+        if i % 20  == 0:
+            ucb=np.sum([intrinsic_reward,extrinsic_reward],axis=0).tolist()
+            relax_energy=relax_energy.tolist()
+            data = [[x, y] for (x, y) in zip(ucb, relax_energy)]
             table = wandb.Table(data=data, columns=["x", "y"])
-            wandb.log({"plot_id "+i.__str__(): wandb.plot.scatter(table, "x", "y", title="Energy vs Steps Scatter Plot"),
-                       "loss": loss,
-                       "intrinsic_reward": intrinsic_reward,
-                       "extrinsic reward": reward, })
+            wandb.log({"plot_id "+i.__str__(): wandb.plot.scatter(table, "x", "y", title="Energy vs Reward Scatter Plot")})
 
         print("=======================================================================")
         print("step ", i, " : finished,    time cost : ",
               end_time-start_time, "s")
-        print("loss : ", loss)
         print("=======================================================================")
 
-    # 最后的测试
-    test_conforms = sampler.batch_sample(args.performance_log_size)
-    test_batch_steps, test_batch_energy = batch_relax(
-        test_conforms, args.max_relax_steps, test_conforms.shape[0])
-    data = [[x, y] for (x, y) in zip(test_batch_steps, test_batch_energy)]
-    table = wandb.Table(data=data, columns=["x", "y"])
-    wandb.log({"test_plot: uniform_random": wandb.plot.scatter(
-        table, "x", "y", title="Energy vs Steps Scatter Plot")})
-    filted_conforms = discriminator.filt(comforms, args.threshold)
-    test_batch_steps, test_batch_energy = batch_relax(
-        filted_conforms, args.max_relax_steps, filted_conforms.shape[0])
-    data = [[x, y] for (x, y) in zip(test_batch_steps, test_batch_energy)]
-    table = wandb.Table(data=data, columns=["x", "y"])
-    wandb.log({"test_plot: uniform_filt": wandb.plot.scatter(
-        table, "x", "y", title="Energy vs Steps Scatter Plot")})
+    # # 最后的测试
+    # test_conforms = sampler.batch_sample(args.performance_log_size)
+    # test_batch_steps, test_batch_energy = batch_relax(
+    #     test_conforms, args.max_relax_steps, test_conforms.shape[0])
+    # data = [[x, y] for (x, y) in zip(test_batch_steps, test_batch_energy)]
+    # table = wandb.Table(data=data, columns=["x", "y"])
+    # wandb.log({"test_plot: uniform_random": wandb.plot.scatter(
+    #     table, "x", "y", title="Energy vs Steps Scatter Plot")})
+    # filted_conforms = discriminator.filt(test_conforms, args.threshold)
+    # test_batch_steps, test_batch_energy = batch_relax(
+    #     filted_conforms, args.max_relax_steps, filted_conforms.shape[0])
+    # data = [[x, y] for (x, y) in zip(test_batch_steps, test_batch_energy)]
+    # table = wandb.Table(data=data, columns=["x", "y"])
+    # wandb.log({"test_plot: uniform_filt": wandb.plot.scatter(
+    #     table, "x", "y", title="Energy vs Steps Scatter Plot")})

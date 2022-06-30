@@ -1,0 +1,22 @@
+{
+    "os": "Linux-5.13.0-1031-azure-x86_64-with-glibc2.17",
+    "python": "3.8.13",
+    "heartbeatAt": "2022-06-23T05:41:30.476500",
+    "startedAt": "2022-06-23T05:41:29.891278",
+    "docker": null,
+    "cpu_count": 16,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "main.py",
+    "codePath": "main.py",
+    "git": {
+        "remote": null,
+        "commit": "8140f85ff9e72668a59d13d47ac89727245d6b1e"
+    },
+    "email": null,
+    "root": "/home/v-linyukong/work/conform_discriminator",
+    "host": "GCRAZGDL2360",
+    "username": "FAREAST.v-linyukong",
+    "executable": "/home/v-linyukong/miniconda3/envs/crystal_generation/bin/python"
+}

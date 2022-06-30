@@ -23,9 +23,9 @@ def batch_relax(conforms,max_steps,batch_size):
         batch_energy.append(energy)
     return batch_steps,batch_energy
 
-def get_conforms_potential(conforms,max_steps,batch_size,potential_scale=1000):
-    batch_steps,batch_energy=batch_relax(conforms,max_steps,batch_size)
-    batch_steps=torch.tensor(batch_steps,dtype=torch.long)
-    batch_energy=torch.tensor(batch_energy,dtype=torch.float)
-    batch_potential=-batch_energy/batch_steps*potential_scale
-    return batch_potential
+# def get_conforms_potential(conforms,max_steps,batch_size,potential_scale=1000):
+#     batch_steps,batch_energy=batch_relax(conforms,max_steps,batch_size)
+#     batch_steps=torch.tensor(batch_steps,dtype=torch.long)
+#     batch_energy=torch.tensor(batch_energy,dtype=torch.float)
+#     batch_potential=-batch_energy/batch_steps*potential_scale
+#     return batch_potential

@@ -1,6 +1,7 @@
 from model.ignn import IGNN
 import torch
 import torch.nn as nn
+import torch.nn.functional as F
 from utils.graph_utils import get_edges_batch
 
 
@@ -8,17 +9,13 @@ class Discriminator():
     def __init__(self,
                  intrinsic_target_params,
                  intrinsic_model_params,
-                 score_model_params,
+                 extrinsic_model_params,
                  num_nodes,
-                 batch_size,
                  device):
         self.num_nodes = num_nodes
-        self.batch_size = batch_size
         self.device = device
 
         # intrinsic_target_model
-        # self.intrinsic_target_model=Intrinsic_Target(**intrinsic_target_params)
-        # self.intrinsic_target_model.apply(weight_init)
         self.intrinsic_target_model = IGNN(**intrinsic_target_params)
         self.intrinsic_target_model.apply(weight_init)
 
@@ -26,67 +23,72 @@ class Discriminator():
         self.intrinsic_model = IGNN(**intrinsic_model_params)
         self.intrinsic_model.apply(weight_init)
 
-        # score model
-        self.score_model = IGNN(**score_model_params)
-        self.score_model.apply(weight_init)
+        # extrinsic model
+        self.extrinsic_model = IGNN(**extrinsic_model_params)
+        self.extrinsic_model.apply(weight_init)
 
-    def predict(self, conforms):
+    def predict(self, conforms, batch_size):
         """
         conforms: [batch_size,num_atoms,3]
         x: [batch_size*num_atoms,3]
 
         return:
         intrinsic_predict  --> [batch_size,1]    error is intrinsic_reward
-        score_predict  -->  [batch_size,1]   in [0,1]
+        extrinsic_predict  -->  [batch_size,1]   in [0,1]
         """
         x = conforms.view(-1, 3).to(self.device)
         h = torch.ones(x.shape[0], 1).to(self.device)
         edge_index, edge_attr = get_edges_batch(
-            self.num_nodes, self.batch_size)
+            self.num_nodes, batch_size)
         edge_index = edge_index.to(self.device)
         edge_attr = edge_attr.to(self.device)
 
         intrinsic_predict = self.intrinsic_model(
             x, h, edge_index, edge_attr)  # [batch_size,1]
-        score_predict = self.score_model(
+        extrinsic_predict = self.extrinsic_model(
             x, h, edge_index, edge_attr)  # [batch_size,1]
 
-        return intrinsic_predict, score_predict
+        return intrinsic_predict, extrinsic_predict
 
-    def compute_loss_and_train(self, conforms, potential):
+    def compute_loss_and_train(self, conforms, final_energy, batch_size):
         """
         conforms: [batch_size,num_atoms,3]
-        potential: [batch_size,num_atoms]  -->  (-energy/steps) which can be modified
+        final_energy: [batch_size,1]
 
         return:
         loss
         """
         conforms = conforms.to(self.device)
-        potential = potential.to(self.device)
-        intrinsic_predict, score_predict = self.predict(conforms)
+        final_energy = final_energy.to(self.device)
+        intrinsic_predict, extrinsic_predict = self.predict(conforms, batch_size)
+
+        # intrinsic loss and backward
         with torch.no_grad():
             x = conforms.view(-1, 3).to(self.device)
             h = torch.ones(x.shape[0], 1).to(self.device)
             edge_index, edge_attr = get_edges_batch(
-                self.num_nodes, self.batch_size)
+                self.num_nodes, batch_size)
             edge_index = edge_index.to(self.device)
             edge_attr = edge_attr.to(self.device)
-            intrinsic_real = self.intrinsic_target_model(x, h, edge_index, edge_attr)
-        intrinsic_reward = torch.square(intrinsic_real-intrinsic_predict)
-        intrinsic_loss = torch.mean(intrinsic_reward)
+            intrinsic_target = self.intrinsic_target_model(x, h, edge_index, edge_attr)
+        intrinsic_loss = F.mse_loss(intrinsic_predict, intrinsic_target)
         self.intrinsic_model.optimizer.zero_grad()
         intrinsic_loss.backward()
         self.intrinsic_model.optimizer.step()
-        intrinsic_reward = intrinsic_reward.detach()
-        reward = potential+intrinsic_reward
-        # reward=potential
-        score_loss = -torch.mean(score_predict*reward)
-        self.score_model.optimizer.zero_grad()
-        score_loss.backward()
-        self.score_model.optimizer.step()
-        return score_loss.item(), intrinsic_reward.mean().item(), potential.mean().item()
 
-    def filt(self, conforms, threshold):
+        # extrinsic loss and backward
+        extrinsic_loss = F.mse_loss(extrinsic_predict, final_energy)
+        self.extrinsic_model.optimizer.zero_grad()
+        extrinsic_loss.backward()
+        self.extrinsic_model.optimizer.step()
+
+        intrinsic_reward=torch.abs((intrinsic_predict-intrinsic_target)).squeeze(-1).tolist()
+        extrinsic_reward=(-extrinsic_predict).squeeze(-1).tolist()
+
+        return intrinsic_loss.item(), extrinsic_loss.item(),intrinsic_reward, extrinsic_reward
+        
+
+    def filt(self, conforms, threshold,batch_size):
         """
         conforms: [batch_size,num_atoms,3]
         threshold: float
@@ -95,10 +97,10 @@ class Discriminator():
         conforms: [?,num_atoms,3]
         """
         conforms = conforms.to(self.device)
-        _, score_predict = self.predict(conforms)
-        score = score_predict.view(-1)
+        _, extrinsic_predict = self.predict(conforms,batch_size)
+        extrinsic = extrinsic_predict.view(-1)
         index = torch.arange(0, conforms.shape[0]).to(self.device)
-        mask = index[score > threshold]
+        mask = index[extrinsic > threshold]
         conforms = conforms[mask, :]
         return conforms
 

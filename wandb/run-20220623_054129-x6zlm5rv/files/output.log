@@ -1,0 +1,49 @@
+=======================================================================
+step  0  : finished,    time cost :  327.15924406051636 s
+=======================================================================
+=======================================================================
+step  1  : finished,    time cost :  283.9883863925934 s
+=======================================================================
+=======================================================================
+step  2  : finished,    time cost :  264.5033960342407 s
+=======================================================================
+=======================================================================
+step  3  : finished,    time cost :  276.71822810173035 s
+=======================================================================
+=======================================================================
+step  4  : finished,    time cost :  270.72865176200867 s
+=======================================================================
+=======================================================================
+step  5  : finished,    time cost :  445.15294456481934 s
+=======================================================================
+=======================================================================
+step  6  : finished,    time cost :  265.83809661865234 s
+=======================================================================
+=======================================================================
+step  7  : finished,    time cost :  275.3884847164154 s
+=======================================================================
+=======================================================================
+step  8  : finished,    time cost :  313.68579626083374 s
+=======================================================================
+=======================================================================
+step  9  : finished,    time cost :  265.3222165107727 s
+=======================================================================
+Traceback (most recent call last):
+  File "main.py", line 125, in <module>
+    _,relax_energy=batch_relax(conforms,args.max_relax_steps,args.batch_size)
+  File "/home/v-linyukong/work/conform_discriminator/bfgs_relax.py", line 21, in batch_relax
+    steps,energy=relax(pos,max_steps)
+  File "/home/v-linyukong/work/conform_discriminator/bfgs_relax.py", line 13, in relax
+    dyn.run(fmax=0.0001,steps=max_steps)
+  File "/home/v-linyukong/miniconda3/envs/crystal_generation/lib/python3.8/site-packages/ase/optimize/optimize.py", line 269, in run
+    return Dynamics.run(self)
+  File "/home/v-linyukong/miniconda3/envs/crystal_generation/lib/python3.8/site-packages/ase/optimize/optimize.py", line 156, in run
+    for converged in Dynamics.irun(self):
+  File "/home/v-linyukong/miniconda3/envs/crystal_generation/lib/python3.8/site-packages/ase/optimize/optimize.py", line 135, in irun
+    self.step()
+  File "/home/v-linyukong/miniconda3/envs/crystal_generation/lib/python3.8/site-packages/ase/optimize/bfgs.py", line 90, in step
+    omega, V = eigh(self.H)
+  File "<__array_function__ internals>", line 180, in eigh
+  File "/home/v-linyukong/miniconda3/envs/crystal_generation/lib/python3.8/site-packages/numpy/linalg/linalg.py", line 1458, in eigh
+    w, vt = gufunc(a, signature=signature, extobj=extobj)
+KeyboardInterrupt
