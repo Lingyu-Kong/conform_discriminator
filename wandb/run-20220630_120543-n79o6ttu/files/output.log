@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "main.py", line 114, in <module>
+    discriminator = Discriminator(intrinsic_target_params,
+  File "/home/v-linyukong/work/conform_discriminator/discriminator.py", line 19, in __init__
+    self.intrinsic_target_model = IGNN(**intrinsic_target_params)
+  File "/home/v-linyukong/work/conform_discriminator/model/ignn.py", line 35, in __init__
+    self.module_list.append(IGNN_Layer(node_attr_dim,
+  File "/home/v-linyukong/work/conform_discriminator/model/ignn_layer.py", line 54, in __init__
+    self.to(self.device)
+  File "/home/v-linyukong/miniconda3/envs/crystal_generation/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1185, in __getattr__
+    raise AttributeError("'{}' object has no attribute '{}'".format(
+AttributeError: 'IGNN_Layer' object has no attribute 'device'

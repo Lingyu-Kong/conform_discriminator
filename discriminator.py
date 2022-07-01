@@ -104,6 +104,16 @@ class Discriminator():
         conforms = conforms[mask, :]
         return conforms
 
+    def load_model(self, path):
+        self.intrinsic_model.load_state_dict(torch.load(path + 'intrinsic_model.pt'))
+        self.intrinsic_target_model.load_state_dict(torch.load(path + 'intrinsic_target_model.pt'))
+        self.extrinsic_model.load_state_dict(torch.load(path + 'extrinsic_model.pt'))
+
+    def save_model(self, path):
+        torch.save(self.intrinsic_model.state_dict(), path + 'intrinsic_model.pt')
+        torch.save(self.intrinsic_target_model.state_dict(), path + 'intrinsic_target_model.pt')
+        torch.save(self.extrinsic_model.state_dict(), path + 'extrinsic_model.pt')
+
 
 class Intrinsic_Target(nn.Module):
     """

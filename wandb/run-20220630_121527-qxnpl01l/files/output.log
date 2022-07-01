@@ -1,0 +1,20 @@
+Traceback (most recent call last):
+  File "main.py", line 127, in <module>
+    intrinsic_loss,extrinsic_loss,intrinsic_reward,extrinsic_reward = discriminator.compute_loss_and_train(conforms, relax_energy,sampled_batch_size)
+  File "/home/v-linyukong/work/conform_discriminator/discriminator.py", line 63, in compute_loss_and_train
+    intrinsic_predict, extrinsic_predict = self.predict(conforms, batch_size)
+  File "/home/v-linyukong/work/conform_discriminator/discriminator.py", line 46, in predict
+    intrinsic_predict = self.intrinsic_model(
+  File "/home/v-linyukong/miniconda3/envs/crystal_generation/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/v-linyukong/work/conform_discriminator/model/ignn.py", line 74, in forward
+    h=self.module_list[i](x,h,edge_index,edge_attr)
+  File "/home/v-linyukong/miniconda3/envs/crystal_generation/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/v-linyukong/work/conform_discriminator/model/ignn_layer.py", line 132, in forward
+    x=self.phi_x_model_forward(message,x,x[row],x[col])                #(4)
+  File "/home/v-linyukong/work/conform_discriminator/model/ignn_layer.py", line 101, in phi_x_model_forward
+    agg = self.unsorted_segment_mean(trans, source_x, num_segments=x.size(0))
+  File "/home/v-linyukong/work/conform_discriminator/model/ignn_layer.py", line 120, in unsorted_segment_mean
+    segment_ids = segment_ids.unsqueeze(-1).expand(-1, data.size(1))
+RuntimeError: expand(torch.cuda.FloatTensor{[48260, 3, 1]}, size=[-1, 3]): the number of sizes provided (2) must be greater or equal to the number of dimensions in the tensor (3)

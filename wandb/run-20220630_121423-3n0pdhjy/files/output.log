@@ -1,0 +1,21 @@
+Traceback (most recent call last):
+  File "main.py", line 114, in <module>
+    discriminator = Discriminator(intrinsic_target_params,
+  File "/home/v-linyukong/work/conform_discriminator/discriminator.py", line 20, in __init__
+    self.intrinsic_target_model.apply(weight_init)
+  File "/home/v-linyukong/miniconda3/envs/crystal_generation/lib/python3.8/site-packages/torch/nn/modules/module.py", line 667, in apply
+    module.apply(fn)
+  File "/home/v-linyukong/miniconda3/envs/crystal_generation/lib/python3.8/site-packages/torch/nn/modules/module.py", line 667, in apply
+    module.apply(fn)
+  File "/home/v-linyukong/miniconda3/envs/crystal_generation/lib/python3.8/site-packages/torch/nn/modules/module.py", line 667, in apply
+    module.apply(fn)
+  [Previous line repeated 1 more time]
+  File "/home/v-linyukong/miniconda3/envs/crystal_generation/lib/python3.8/site-packages/torch/nn/modules/module.py", line 668, in apply
+    fn(self)
+  File "/home/v-linyukong/work/conform_discriminator/discriminator.py", line 150, in weight_init
+    nn.init.constant_(m.bias, 0.0)
+  File "/home/v-linyukong/miniconda3/envs/crystal_generation/lib/python3.8/site-packages/torch/nn/init.py", line 192, in constant_
+    return _no_grad_fill_(tensor, val)
+  File "/home/v-linyukong/miniconda3/envs/crystal_generation/lib/python3.8/site-packages/torch/nn/init.py", line 59, in _no_grad_fill_
+    return tensor.fill_(val)
+AttributeError: 'NoneType' object has no attribute 'fill_'

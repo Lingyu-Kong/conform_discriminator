@@ -1,3 +1,4 @@
+from sklearn.preprocessing import scale
 import torch
 from utils.graph_utils import get_edges_batch
 
@@ -32,7 +33,7 @@ class Sampler():
     def batch_sample(self, batch_size):
         pos_batch = torch.rand(batch_size, self.num_atoms, 3)
         scale_batch=(torch.rand(batch_size,self.num_atoms, 3)*self.scale)
-        pos_batch = pos_batch*scale_batch
+        pos_batch = pos_batch*2*scale_batch-scale_batch
         pos_batch = pos_batch.detach()
         filted_batch_data, filted_batch_size = batch_filt(pos_batch, batch_size, self.num_atoms, self.threshold)
         return filted_batch_data, filted_batch_size

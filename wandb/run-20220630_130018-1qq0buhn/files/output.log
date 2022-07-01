@@ -1,0 +1,28 @@
+=======================================================================
+step  0  : finished,    time cost :  76.914386510849 s
+=======================================================================
+Traceback (most recent call last):
+  File "main.py", line 125, in <module>
+    _,relax_energy=batch_relax(conforms,args.max_relax_steps,sampled_batch_size)
+  File "/home/v-linyukong/work/conform_discriminator/bfgs_relax.py", line 21, in batch_relax
+    steps,energy=relax(pos,max_steps)
+  File "/home/v-linyukong/work/conform_discriminator/bfgs_relax.py", line 13, in relax
+    dyn.run(fmax=0.0001,steps=max_steps)
+  File "/home/v-linyukong/miniconda3/envs/crystal_generation/lib/python3.8/site-packages/ase/optimize/optimize.py", line 269, in run
+    return Dynamics.run(self)
+  File "/home/v-linyukong/miniconda3/envs/crystal_generation/lib/python3.8/site-packages/ase/optimize/optimize.py", line 156, in run
+    for converged in Dynamics.irun(self):
+  File "/home/v-linyukong/miniconda3/envs/crystal_generation/lib/python3.8/site-packages/ase/optimize/optimize.py", line 143, in irun
+    self.log()
+  File "/home/v-linyukong/miniconda3/envs/crystal_generation/lib/python3.8/site-packages/ase/optimize/optimize.py", line 283, in log
+    forces = self.atoms.get_forces()
+  File "/home/v-linyukong/miniconda3/envs/crystal_generation/lib/python3.8/site-packages/ase/atoms.py", line 788, in get_forces
+    forces = self._calc.get_forces(self)
+  File "/home/v-linyukong/miniconda3/envs/crystal_generation/lib/python3.8/site-packages/ase/calculators/abc.py", line 23, in get_forces
+    return self.get_property('forces', atoms)
+  File "/home/v-linyukong/miniconda3/envs/crystal_generation/lib/python3.8/site-packages/ase/calculators/calculator.py", line 737, in get_property
+    self.calculate(atoms, [name], system_changes)
+  File "/home/v-linyukong/miniconda3/envs/crystal_generation/lib/python3.8/site-packages/ase/calculators/lj.py", line 234, in calculate
+    stresses[ii] += 0.5 * np.dot(
+  File "<__array_function__ internals>", line 180, in dot
+KeyboardInterrupt

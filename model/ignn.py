@@ -32,7 +32,8 @@ class IGNN(nn.Module):
         self.node_attr_decoder=nn.Linear(node_attr_dim,out_node_attr_dim)
         self.module_list=nn.ModuleList()
         for i in range(num_layers):
-            self.module_list.append(IGNN_Layer(node_attr_dim,
+            self.module_list.append(IGNN_Layer(device,
+                                               node_attr_dim,
                                                egde_attr_dim,
                                                message_dim,
                                                node_attr_dim,

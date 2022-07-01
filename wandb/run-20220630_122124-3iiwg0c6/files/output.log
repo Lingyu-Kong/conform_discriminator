@@ -1,0 +1,64 @@
+=======================================================================
+step  0  : finished,    time cost :  86.57978129386902 s
+=======================================================================
+=======================================================================
+step  1  : finished,    time cost :  79.64883542060852 s
+=======================================================================
+=======================================================================
+step  2  : finished,    time cost :  78.05108594894409 s
+=======================================================================
+=======================================================================
+step  3  : finished,    time cost :  76.47145342826843 s
+=======================================================================
+=======================================================================
+step  4  : finished,    time cost :  76.71670579910278 s
+=======================================================================
+=======================================================================
+step  5  : finished,    time cost :  76.23438930511475 s
+=======================================================================
+=======================================================================
+step  6  : finished,    time cost :  76.23092532157898 s
+=======================================================================
+=======================================================================
+step  7  : finished,    time cost :  75.73339486122131 s
+=======================================================================
+=======================================================================
+step  8  : finished,    time cost :  76.28684210777283 s
+=======================================================================
+=======================================================================
+step  9  : finished,    time cost :  75.63364505767822 s
+=======================================================================
+=======================================================================
+step  10  : finished,    time cost :  76.87141871452332 s
+=======================================================================
+=======================================================================
+step  11  : finished,    time cost :  76.0612964630127 s
+=======================================================================
+=======================================================================
+step  12  : finished,    time cost :  76.63244271278381 s
+=======================================================================
+Traceback (most recent call last):
+  File "main.py", line 125, in <module>
+    _,relax_energy=batch_relax(conforms,args.max_relax_steps,sampled_batch_size)
+  File "/home/v-linyukong/work/conform_discriminator/bfgs_relax.py", line 21, in batch_relax
+    steps,energy=relax(pos,max_steps)
+  File "/home/v-linyukong/work/conform_discriminator/bfgs_relax.py", line 13, in relax
+    dyn.run(fmax=0.0001,steps=max_steps)
+  File "/home/v-linyukong/miniconda3/envs/crystal_generation/lib/python3.8/site-packages/ase/optimize/optimize.py", line 269, in run
+    return Dynamics.run(self)
+  File "/home/v-linyukong/miniconda3/envs/crystal_generation/lib/python3.8/site-packages/ase/optimize/optimize.py", line 156, in run
+    for converged in Dynamics.irun(self):
+  File "/home/v-linyukong/miniconda3/envs/crystal_generation/lib/python3.8/site-packages/ase/optimize/optimize.py", line 143, in irun
+    self.log()
+  File "/home/v-linyukong/miniconda3/envs/crystal_generation/lib/python3.8/site-packages/ase/optimize/optimize.py", line 283, in log
+    forces = self.atoms.get_forces()
+  File "/home/v-linyukong/miniconda3/envs/crystal_generation/lib/python3.8/site-packages/ase/atoms.py", line 788, in get_forces
+    forces = self._calc.get_forces(self)
+  File "/home/v-linyukong/miniconda3/envs/crystal_generation/lib/python3.8/site-packages/ase/calculators/abc.py", line 23, in get_forces
+    return self.get_property('forces', atoms)
+  File "/home/v-linyukong/miniconda3/envs/crystal_generation/lib/python3.8/site-packages/ase/calculators/calculator.py", line 737, in get_property
+    self.calculate(atoms, [name], system_changes)
+  File "/home/v-linyukong/miniconda3/envs/crystal_generation/lib/python3.8/site-packages/ase/calculators/lj.py", line 234, in calculate
+    stresses[ii] += 0.5 * np.dot(
+  File "<__array_function__ internals>", line 180, in dot
+KeyboardInterrupt

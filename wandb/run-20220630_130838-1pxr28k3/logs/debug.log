@@ -1,0 +1,139 @@
+2022-06-30 13:08:38,471 INFO    MainThread:2525324 [wandb_setup.py:_flush():69] setting env: {}
+2022-06-30 13:08:38,471 INFO    MainThread:2525324 [wandb_setup.py:_flush():69] setting login settings: {}
+2022-06-30 13:08:38,471 INFO    MainThread:2525324 [wandb_setup.py:_flush():69] setting login settings: {}
+2022-06-30 13:08:38,471 INFO    MainThread:2525324 [wandb_init.py:_log_setup():337] Logging user logs to /home/v-linyukong/work/conform_discriminator/wandb/run-20220630_130838-1pxr28k3/logs/debug.log
+2022-06-30 13:08:38,471 INFO    MainThread:2525324 [wandb_init.py:_log_setup():338] Logging internal logs to /home/v-linyukong/work/conform_discriminator/wandb/run-20220630_130838-1pxr28k3/logs/debug-internal.log
+2022-06-30 13:08:38,471 INFO    MainThread:2525324 [wandb_init.py:init():370] calling init triggers
+2022-06-30 13:08:38,471 INFO    MainThread:2525324 [wandb_init.py:init():375] wandb.init called with sweep_config: {}
+config: {}
+2022-06-30 13:08:38,471 INFO    MainThread:2525324 [wandb_init.py:init():419] starting backend
+2022-06-30 13:08:38,471 INFO    MainThread:2525324 [backend.py:_multiprocessing_setup():70] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2022-06-30 13:08:38,479 INFO    MainThread:2525324 [backend.py:ensure_launched():135] starting backend process...
+2022-06-30 13:08:38,484 INFO    MainThread:2525324 [backend.py:ensure_launched():139] started backend process with pid: 2525440
+2022-06-30 13:08:38,485 INFO    MainThread:2525324 [wandb_init.py:init():424] backend started and connected
+2022-06-30 13:08:38,486 INFO    MainThread:2525324 [wandb_init.py:init():472] updated telemetry
+2022-06-30 13:08:38,487 INFO    MainThread:2525324 [wandb_init.py:init():491] communicating current version
+2022-06-30 13:08:38,968 INFO    MainThread:2525324 [wandb_init.py:init():496] got version response upgrade_message: "wandb version 0.12.20 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2022-06-30 13:08:38,968 INFO    MainThread:2525324 [wandb_init.py:init():504] communicating run to backend with 30 second timeout
+2022-06-30 13:08:39,073 INFO    MainThread:2525324 [wandb_init.py:init():529] starting run threads in backend
+2022-06-30 13:08:39,128 INFO    MainThread:2525324 [wandb_run.py:_console_start():1623] atexit reg
+2022-06-30 13:08:39,128 INFO    MainThread:2525324 [wandb_run.py:_redirect():1497] redirect: SettingsConsole.REDIRECT
+2022-06-30 13:08:39,128 INFO    MainThread:2525324 [wandb_run.py:_redirect():1502] Redirecting console.
+2022-06-30 13:08:39,134 INFO    MainThread:2525324 [wandb_run.py:_redirect():1558] Redirects installed.
+2022-06-30 13:08:39,135 INFO    MainThread:2525324 [wandb_init.py:init():554] run started, returning control to user process
+2022-06-30 13:08:40,897 INFO    MainThread:2525324 [wandb_watch.py:watch():40] Watching
+2022-06-30 13:09:57,771 INFO    MainThread:2525324 [wandb_run.py:_config_callback():872] config_cb ('_wandb', 'visualize', 'plot_id 0') {'panel_type': 'Vega2', 'panel_config': {'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'plot_id 0_table'}], 'fields': []}]}]}, 'panelDefId': 'wandb/scatter/v0', 'transform': {'name': 'tableWithLeafColNames'}, 'fieldSettings': {'x': 'x', 'y': 'y'}, 'stringSettings': {'title': 'Energy vs Reward Scatter Plot'}}} None
+2022-06-30 13:38:00,442 INFO    MainThread:2525324 [wandb_run.py:_config_callback():872] config_cb ('_wandb', 'visualize', 'plot_id 20') {'panel_type': 'Vega2', 'panel_config': {'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'plot_id 20_table'}], 'fields': []}]}]}, 'panelDefId': 'wandb/scatter/v0', 'transform': {'name': 'tableWithLeafColNames'}, 'fieldSettings': {'x': 'x', 'y': 'y'}, 'stringSettings': {'title': 'Energy vs Reward Scatter Plot'}}} None
+2022-06-30 14:03:06,442 INFO    MainThread:2525324 [wandb_run.py:_config_callback():872] config_cb ('_wandb', 'visualize', 'plot_id 40') {'panel_type': 'Vega2', 'panel_config': {'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'plot_id 40_table'}], 'fields': []}]}]}, 'panelDefId': 'wandb/scatter/v0', 'transform': {'name': 'tableWithLeafColNames'}, 'fieldSettings': {'x': 'x', 'y': 'y'}, 'stringSettings': {'title': 'Energy vs Reward Scatter Plot'}}} None
+2022-06-30 14:31:31,331 INFO    MainThread:2525324 [wandb_run.py:_config_callback():872] config_cb ('_wandb', 'visualize', 'plot_id 60') {'panel_type': 'Vega2', 'panel_config': {'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'plot_id 60_table'}], 'fields': []}]}]}, 'panelDefId': 'wandb/scatter/v0', 'transform': {'name': 'tableWithLeafColNames'}, 'fieldSettings': {'x': 'x', 'y': 'y'}, 'stringSettings': {'title': 'Energy vs Reward Scatter Plot'}}} None
+2022-06-30 15:00:34,298 INFO    MainThread:2525324 [wandb_run.py:_config_callback():872] config_cb ('_wandb', 'visualize', 'plot_id 80') {'panel_type': 'Vega2', 'panel_config': {'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'plot_id 80_table'}], 'fields': []}]}]}, 'panelDefId': 'wandb/scatter/v0', 'transform': {'name': 'tableWithLeafColNames'}, 'fieldSettings': {'x': 'x', 'y': 'y'}, 'stringSettings': {'title': 'Energy vs Reward Scatter Plot'}}} None
+2022-06-30 15:30:35,087 INFO    MainThread:2525324 [wandb_run.py:_config_callback():872] config_cb ('_wandb', 'visualize', 'plot_id 100') {'panel_type': 'Vega2', 'panel_config': {'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'plot_id 100_table'}], 'fields': []}]}]}, 'panelDefId': 'wandb/scatter/v0', 'transform': {'name': 'tableWithLeafColNames'}, 'fieldSettings': {'x': 'x', 'y': 'y'}, 'stringSettings': {'title': 'Energy vs Reward Scatter Plot'}}} None
+2022-06-30 15:30:36,899 INFO    MainThread:2525324 [wandb_run.py:_atexit_cleanup():1593] got exitcode: 0
+2022-06-30 15:30:36,899 INFO    MainThread:2525324 [wandb_run.py:_restore():1565] restore
+2022-06-30 15:30:39,595 INFO    MainThread:2525324 [wandb_run.py:_wait_for_finish():1715] got exit ret: file_counts {
+  wandb_count: 1
+  media_count: 7
+  artifact_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 76338
+  total_bytes: 76338
+}
+
+2022-06-30 15:30:39,802 INFO    MainThread:2525324 [wandb_run.py:_wait_for_finish():1715] got exit ret: file_counts {
+  wandb_count: 1
+  media_count: 7
+  artifact_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 76338
+  total_bytes: 76338
+}
+
+2022-06-30 15:30:39,903 INFO    MainThread:2525324 [wandb_run.py:_wait_for_finish():1715] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 7
+  artifact_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 76338
+  total_bytes: 194442
+}
+
+2022-06-30 15:30:40,004 INFO    MainThread:2525324 [wandb_run.py:_wait_for_finish():1715] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 7
+  artifact_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 194442
+  total_bytes: 194442
+}
+
+2022-06-30 15:30:40,105 INFO    MainThread:2525324 [wandb_run.py:_wait_for_finish():1715] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 7
+  artifact_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 194442
+  total_bytes: 194442
+}
+
+2022-06-30 15:30:40,206 INFO    MainThread:2525324 [wandb_run.py:_wait_for_finish():1715] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 7
+  artifact_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 194442
+  total_bytes: 194442
+}
+
+2022-06-30 15:30:40,307 INFO    MainThread:2525324 [wandb_run.py:_wait_for_finish():1715] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 7
+  artifact_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 194442
+  total_bytes: 194442
+}
+
+2022-06-30 15:30:40,408 INFO    MainThread:2525324 [wandb_run.py:_wait_for_finish():1715] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 7
+  artifact_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 194442
+  total_bytes: 194442
+}
+
+2022-06-30 15:30:40,578 INFO    MainThread:2525324 [wandb_run.py:_wait_for_finish():1715] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 7
+  artifact_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 194442
+  total_bytes: 194442
+}
+
+2022-06-30 15:30:40,679 INFO    MainThread:2525324 [wandb_run.py:_wait_for_finish():1715] got exit ret: done: true
+exit_result {
+}
+file_counts {
+  wandb_count: 5
+  media_count: 7
+  artifact_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 194442
+  total_bytes: 194442
+}
+
+2022-06-30 15:30:41,756 INFO    MainThread:2525324 [wandb_run.py:_show_summary():1870] rendering summary
+2022-06-30 15:30:41,756 INFO    MainThread:2525324 [wandb_run.py:_show_history():1908] rendering history
+2022-06-30 15:30:41,756 INFO    MainThread:2525324 [wandb_run.py:_show_files():1937] logging synced files
