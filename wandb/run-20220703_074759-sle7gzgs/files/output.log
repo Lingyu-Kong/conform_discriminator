@@ -1,0 +1,9 @@
+/home/v-linyukong/work/conform_discriminator/DMCG_Discriminator/dmcg_discriminator.py:56: UserWarning: Using a target size (torch.Size([64, 1])) that is different to the input size (torch.Size([64, 256])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  extrinsic_loss = F.mse_loss(extrinsic_predict, energy)
+Traceback (most recent call last):
+  File "dmcg_main.py", line 134, in <module>
+    discriminator.save_model("./dmcg_model_save/multistep_")
+AttributeError: 'DMCG_Discriminator' object has no attribute 'save_model'
+=======================================================================
+step  0  : finished,    time cost :  3.5509049892425537 s
+=======================================================================

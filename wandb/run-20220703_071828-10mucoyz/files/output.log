@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "dmcg_main.py", line 101, in <module>
+    discriminator=DMCG_Discriminator(intrinsic_params,
+  File "/home/v-linyukong/work/conform_discriminator/DMCG_Discriminator/dmcg_discriminator.py", line 28, in __init__
+    self.scheduler_ex = MultiStepLR(self.extrinsic_model.optimizer,milestones=[100,150,175,200],gamma=decay_rate)
+  File "/home/v-linyukong/miniconda3/envs/crystal_generation/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1185, in __getattr__
+    raise AttributeError("'{}' object has no attribute '{}'".format(
+AttributeError: 'GNN' object has no attribute 'optimizer'

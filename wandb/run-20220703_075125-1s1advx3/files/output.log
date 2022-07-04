@@ -1,0 +1,7 @@
+=======================================================================
+step  0  : finished,    time cost :  3.56253719329834 s
+=======================================================================
+Traceback (most recent call last):
+  File "dmcg_main.py", line 134, in <module>
+    discriminator.save_model("./dmcg_model_save/multistep_")
+AttributeError: 'DMCG_Discriminator' object has no attribute 'save_model'

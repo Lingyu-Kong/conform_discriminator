@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "main.py", line 128, in <module>
+    conforms,sampled_batch_size = sampler.batch_sample(args.batch_size)
+  File "/home/v-linyukong/work/conform_discriminator/sampler.py", line 27, in batch_sample
+    conforms[i,:,:]=self.single_sample()
+  File "/home/v-linyukong/work/conform_discriminator/sampler.py", line 17, in single_sample
+    distance=torch.norm(new_pos-pos[j],p=2)
+KeyboardInterrupt

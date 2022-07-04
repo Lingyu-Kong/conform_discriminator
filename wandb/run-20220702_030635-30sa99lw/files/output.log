@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "main.py", line 116, in <module>
+    discriminator = Discriminator(intrinsic_target_params,
+  File "/home/v-linyukong/work/conform_discriminator/discriminator.py", line 33, in __init__
+    self.scheduler_ex = StepLR(self.extrinsic_model.optimizer,milestones=[100,150,175],gamma=0.5)
+TypeError: __init__() got an unexpected keyword argument 'milestones'

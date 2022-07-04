@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "dmcg_main.py", line 101, in <module>
+    discriminator=DMCG_Discriminator(intrinsic_params,
+  File "/home/v-linyukong/work/conform_discriminator/DMCG_Discriminator/dmcg_discriminator.py", line 21, in __init__
+    self.intrinsic_model = GNN(**intrinsic_model_params)
+  File "/home/v-linyukong/work/conform_discriminator/DMCG_model/dmcg_nn.py", line 46, in __init__
+    submodule=MLP(
+TypeError: __init__() got an unexpected keyword argument 'dropout'

@@ -1,0 +1,20 @@
+Traceback (most recent call last):
+  File "main.py", line 144, in <module>
+    wandb.log({"my_custom_id" : wandb.plot.line_series(
+  File "/home/v-linyukong/miniconda3/envs/crystal_generation/lib/python3.8/site-packages/wandb/plot/line_series.py", line 49, in line_series
+    table = wandb.Table(data=data, columns=["step", "lineKey", "lineVal"])
+  File "/home/v-linyukong/miniconda3/envs/crystal_generation/lib/python3.8/site-packages/wandb/data_types.py", line 216, in __init__
+    self._init_from_list(data, columns, optional, dtype)
+  File "/home/v-linyukong/miniconda3/envs/crystal_generation/lib/python3.8/site-packages/wandb/data_types.py", line 243, in _init_from_list
+    self.add_data(*row)
+  File "/home/v-linyukong/miniconda3/envs/crystal_generation/lib/python3.8/site-packages/wandb/data_types.py", line 405, in add_data
+    result_type = self._get_updated_result_type(data)
+  File "/home/v-linyukong/miniconda3/envs/crystal_generation/lib/python3.8/site-packages/wandb/data_types.py", line 426, in _get_updated_result_type
+    raise TypeError(
+TypeError: Data row contained incompatible types:
+{'step': 0, 'lineKey': 'prediction', 'lineVal': 42050.27673339844} of type {'step': Number, 'lineKey': String, 'lineVal': Number} is not assignable to {'step': None or Number, 'lineKey': None or String, 'lineVal': None or Number[]}
+Key 'lineVal':
+	Number not assignable to None or Number[]
+		Number not assignable to None
+	and
+		Number not assignable to Number[]

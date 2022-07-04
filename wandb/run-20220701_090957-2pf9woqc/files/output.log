@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "main.py", line 145, in <module>
+    plt.plot(np.add(extrinsic_reward+intrinsic_reward).tolist(),label="prediction")
+TypeError: add() takes from 2 to 3 positional arguments but 1 were given

@@ -1,0 +1,28 @@
+Traceback (most recent call last):
+  File "dmcg_main.py", line 118, in <module>
+    intrinsic_loss,extrinsic_loss,intrinsic_rewards,extrinsic_rewards = discriminator.compute_loss_and_train(conforms, energy)
+  File "/home/v-linyukong/work/conform_discriminator/DMCG_Discriminator/dmcg_discriminator.py", line 53, in compute_loss_and_train
+    intrinsic_predict, extrinsic_predict = self.predict(conforms)
+  File "/home/v-linyukong/work/conform_discriminator/DMCG_Discriminator/dmcg_discriminator.py", line 39, in predict
+    intrinsic_predict=self.intrinsic_model(conforms)
+  File "/home/v-linyukong/miniconda3/envs/crystal_generation/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/v-linyukong/work/conform_discriminator/DMCG_model/dmcg_nn.py", line 133, in forward
+    node_attr_1,edge_attr_1,global_attr_1=layer(
+  File "/home/v-linyukong/miniconda3/envs/crystal_generation/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/v-linyukong/work/conform_discriminator/DMCG_model/meta_layer.py", line 71, in forward
+    node_attr=self.node_model(concat_feat) ## [batch_size*num_nodes, node_attr_dim]
+  File "/home/v-linyukong/miniconda3/envs/crystal_generation/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/v-linyukong/work/conform_discriminator/DMCG_model/meta_layer.py", line 96, in forward
+    x = self.submodule(x)
+  File "/home/v-linyukong/miniconda3/envs/crystal_generation/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/v-linyukong/work/conform_discriminator/DMCG_model/meta_layer.py", line 143, in forward
+    x = item(x)
+  File "/home/v-linyukong/miniconda3/envs/crystal_generation/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/v-linyukong/miniconda3/envs/crystal_generation/lib/python3.8/site-packages/torch/nn/modules/linear.py", line 103, in forward
+    return F.linear(input, self.weight, self.bias)
+RuntimeError: mat1 and mat2 shapes cannot be multiplied (2560x1024 and 768x512)

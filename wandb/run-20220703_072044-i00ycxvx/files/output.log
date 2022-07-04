@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "dmcg_main.py", line 118, in <module>
+    intrinsic_loss,extrinsic_loss,intrinsic_rewards,extrinsic_rewards = discriminator.compute_loss_and_train(conforms, energy, sampled_batch_size)
+TypeError: compute_loss_and_train() takes 3 positional arguments but 4 were given

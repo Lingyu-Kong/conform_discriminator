@@ -1,0 +1,23 @@
+Traceback (most recent call last):
+  File "dmcg_main.py", line 118, in <module>
+    intrinsic_loss,extrinsic_loss,intrinsic_rewards,extrinsic_rewards = discriminator.compute_loss_and_train(conforms, energy)
+  File "/home/v-linyukong/work/conform_discriminator/DMCG_Discriminator/dmcg_discriminator.py", line 53, in compute_loss_and_train
+    intrinsic_predict, extrinsic_predict = self.predict(conforms)
+  File "/home/v-linyukong/work/conform_discriminator/DMCG_Discriminator/dmcg_discriminator.py", line 39, in predict
+    intrinsic_predict=self.intrinsic_model(conforms)
+  File "/home/v-linyukong/miniconda3/envs/crystal_generation/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/v-linyukong/work/conform_discriminator/DMCG_model/dmcg_nn.py", line 122, in forward
+    node_attr,edge_attr,global_attr,edge_index=self.attr_init(conforms)
+  File "/home/v-linyukong/work/conform_discriminator/DMCG_model/dmcg_nn.py", line 153, in attr_init
+    distance_edge=torch.norm(pos[edge_index[0]],pos[edge_index[1]])
+  File "/home/v-linyukong/miniconda3/envs/crystal_generation/lib/python3.8/site-packages/torch/functional.py", line 1546, in norm
+    return _VF.norm(input, p, dim=_dim, keepdim=keepdim)  # type: ignore[attr-defined]
+TypeError: norm() received an invalid combination of arguments - got (Tensor, Tensor, keepdim=bool, dim=list), but expected one of:
+ * (Tensor input, Number p)
+ * (Tensor input, Number p, *, torch.dtype dtype)
+      didn't match because some of the keywords were incorrect: keepdim, dim
+ * (Tensor input, Number p, tuple of ints dim, bool keepdim, *, torch.dtype dtype, Tensor out)
+ * (Tensor input, Number p, tuple of ints dim, bool keepdim, *, Tensor out)
+ * (Tensor input, Number p, tuple of names dim, bool keepdim, *, torch.dtype dtype, Tensor out)
+ * (Tensor input, Number p, tuple of names dim, bool keepdim, *, Tensor out)

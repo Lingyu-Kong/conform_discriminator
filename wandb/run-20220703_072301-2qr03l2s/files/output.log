@@ -1,0 +1,22 @@
+Traceback (most recent call last):
+  File "dmcg_main.py", line 118, in <module>
+    intrinsic_loss,extrinsic_loss,intrinsic_rewards,extrinsic_rewards = discriminator.compute_loss_and_train(conforms, energy)
+  File "/home/v-linyukong/work/conform_discriminator/DMCG_Discriminator/dmcg_discriminator.py", line 53, in compute_loss_and_train
+    intrinsic_predict, extrinsic_predict = self.predict(conforms)
+  File "/home/v-linyukong/work/conform_discriminator/DMCG_Discriminator/dmcg_discriminator.py", line 39, in predict
+    intrinsic_predict=self.intrinsic_model(conforms)
+  File "/home/v-linyukong/miniconda3/envs/crystal_generation/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/v-linyukong/work/conform_discriminator/DMCG_model/dmcg_nn.py", line 122, in forward
+    node_attr,edge_attr,global_attr,edge_index=self.attr_init(conforms)
+  File "/home/v-linyukong/work/conform_discriminator/DMCG_model/dmcg_nn.py", line 157, in attr_init
+    node_attr=self.PosEN(distance_node)
+  File "/home/v-linyukong/miniconda3/envs/crystal_generation/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/v-linyukong/work/conform_discriminator/DMCG_model/meta_layer.py", line 143, in forward
+    x = item(x)
+  File "/home/v-linyukong/miniconda3/envs/crystal_generation/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/v-linyukong/miniconda3/envs/crystal_generation/lib/python3.8/site-packages/torch/nn/modules/linear.py", line 103, in forward
+    return F.linear(input, self.weight, self.bias)
+RuntimeError: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu! (when checking argument for argument mat1 in method wrapper_addmm)

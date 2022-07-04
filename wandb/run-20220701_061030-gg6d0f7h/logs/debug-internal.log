@@ -1,0 +1,1328 @@
+2022-07-01 06:10:31,024 INFO    MainThread:1007258 [internal.py:wandb_internal():88] W&B internal server running at pid: 1007258, started at: 2022-07-01 06:10:31.024733
+2022-07-01 06:10:31,026 INFO    WriterThread:1007258 [datastore.py:open_for_write():80] open: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/run-gg6d0f7h.wandb
+2022-07-01 06:10:31,027 DEBUG   HandlerThread:1007258 [handler.py:handle_request():124] handle_request: check_version
+2022-07-01 06:10:31,028 DEBUG   SenderThread:1007258 [sender.py:send():179] send: header
+2022-07-01 06:10:31,028 DEBUG   SenderThread:1007258 [sender.py:send_request():193] send_request: check_version
+2022-07-01 06:10:31,065 DEBUG   SenderThread:1007258 [sender.py:send():179] send: run
+2022-07-01 06:10:31,168 DEBUG   HandlerThread:1007258 [handler.py:handle_request():124] handle_request: run_start
+2022-07-01 06:10:31,169 INFO    SenderThread:1007258 [dir_watcher.py:__init__():168] watching files in: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files
+2022-07-01 06:10:31,169 INFO    SenderThread:1007258 [sender.py:_start_run_threads():716] run started: gg6d0f7h with start time 1656655830
+2022-07-01 06:10:31,169 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:10:31,170 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:10:31,172 DEBUG   HandlerThread:1007258 [meta.py:__init__():39] meta init
+2022-07-01 06:10:31,172 DEBUG   HandlerThread:1007258 [meta.py:__init__():53] meta init done
+2022-07-01 06:10:31,172 DEBUG   HandlerThread:1007258 [meta.py:probe():210] probe
+2022-07-01 06:10:31,182 DEBUG   HandlerThread:1007258 [meta.py:_setup_git():200] setup git
+2022-07-01 06:10:31,194 DEBUG   HandlerThread:1007258 [meta.py:_setup_git():207] setup git done
+2022-07-01 06:10:31,194 DEBUG   HandlerThread:1007258 [meta.py:_save_pip():57] save pip
+2022-07-01 06:10:31,194 DEBUG   HandlerThread:1007258 [meta.py:_save_pip():71] save pip done
+2022-07-01 06:10:31,194 DEBUG   HandlerThread:1007258 [meta.py:_save_conda():78] save conda
+2022-07-01 06:10:31,221 DEBUG   HandlerThread:1007258 [meta.py:_save_conda():86] save conda done
+2022-07-01 06:10:31,221 DEBUG   HandlerThread:1007258 [meta.py:probe():252] probe done
+2022-07-01 06:10:31,224 DEBUG   SenderThread:1007258 [sender.py:send():179] send: files
+2022-07-01 06:10:31,224 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-metadata.json with policy now
+2022-07-01 06:10:31,228 DEBUG   HandlerThread:1007258 [handler.py:handle_request():124] handle_request: stop_status
+2022-07-01 06:10:31,229 DEBUG   SenderThread:1007258 [sender.py:send_request():193] send_request: stop_status
+2022-07-01 06:10:31,608 INFO    Thread-11 :1007258 [upload_job.py:push():137] Uploaded file /tmp/tmpczo415cnwandb/5rdfn0tv-wandb-metadata.json
+2022-07-01 06:10:32,170 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_created():216] file/dir created: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/requirements.txt
+2022-07-01 06:10:32,170 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_created():216] file/dir created: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-metadata.json
+2022-07-01 06:10:32,171 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_created():216] file/dir created: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:10:32,171 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_created():216] file/dir created: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:10:32,171 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_created():216] file/dir created: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/conda-environment.yaml
+2022-07-01 06:10:36,774 DEBUG   SenderThread:1007258 [sender.py:send():179] send: files
+2022-07-01 06:10:36,774 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file media/graph/graph_0_summary_9bbcef504c6722c4d46d.graph.json with policy now
+2022-07-01 06:10:36,774 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:10:36,774 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:10:36,904 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:10:36,905 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:10:36,905 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:10:36,905 DEBUG   SenderThread:1007258 [sender.py:send():179] send: config
+2022-07-01 06:10:37,120 INFO    Thread-12 :1007258 [upload_job.py:push():137] Uploaded file /tmp/tmpczo415cnwandb/kfmtx8ww-media/graph/graph_0_summary_9bbcef504c6722c4d46d.graph.json
+2022-07-01 06:10:37,171 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:10:37,171 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_created():216] file/dir created: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/media/graph/graph_0_summary_9bbcef504c6722c4d46d.graph.json
+2022-07-01 06:10:37,171 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_created():216] file/dir created: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/media
+2022-07-01 06:10:37,171 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_created():216] file/dir created: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/media/graph
+2022-07-01 06:10:38,329 DEBUG   HandlerThread:1007258 [handler.py:handle_request():124] handle_request: log_artifact
+2022-07-01 06:10:38,329 DEBUG   SenderThread:1007258 [sender.py:send_request():193] send_request: log_artifact
+2022-07-01 06:10:38,891 INFO    Thread-14 :1007258 [upload_job.py:push():95] Uploaded file /home/v-linyukong/.cache/wandb/artifacts/obj/md5/b7/5c74d3578c0ebf27ab4a378a1114bf
+2022-07-01 06:10:39,171 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_created():216] file/dir created: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/media/table/plot_id 0_table_1_f196c248bd4029c47828.table.json
+2022-07-01 06:10:39,172 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/media
+2022-07-01 06:10:39,172 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_created():216] file/dir created: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/media/table
+2022-07-01 06:10:39,478 DEBUG   SenderThread:1007258 [sender.py:send():179] send: files
+2022-07-01 06:10:39,478 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file media/table/plot_id 0_table_1_f196c248bd4029c47828.table.json with policy now
+2022-07-01 06:10:39,637 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:10:39,638 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:10:39,638 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:10:39,867 INFO    Thread-15 :1007258 [upload_job.py:push():137] Uploaded file /tmp/tmpczo415cnwandb/36qcfntk-media/table/plot_id 0_table_1_f196c248bd4029c47828.table.json
+2022-07-01 06:10:40,172 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:10:42,173 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:10:42,294 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:10:42,295 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:10:42,295 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:10:43,173 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:10:44,173 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:10:45,716 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:10:45,716 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:10:45,718 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:10:46,174 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:10:46,422 DEBUG   HandlerThread:1007258 [handler.py:handle_request():124] handle_request: stop_status
+2022-07-01 06:10:46,422 DEBUG   SenderThread:1007258 [sender.py:send_request():193] send_request: stop_status
+2022-07-01 06:10:47,284 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:10:47,284 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:10:47,284 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:10:48,175 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:10:48,175 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:10:50,176 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:10:50,221 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:10:50,226 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:10:50,230 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:10:51,176 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:10:52,176 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:10:52,230 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:10:52,230 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:10:52,234 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:10:53,177 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:10:54,177 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:10:54,539 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:10:54,539 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:10:54,544 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:10:55,177 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:10:56,178 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:10:56,961 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:10:56,961 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:10:56,968 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:10:57,178 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:10:58,633 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:10:58,633 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:10:58,639 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:10:59,179 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:10:59,464 DEBUG   SenderThread:1007258 [sender.py:send():179] send: stats
+2022-07-01 06:11:00,179 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:11:01,489 DEBUG   HandlerThread:1007258 [handler.py:handle_request():124] handle_request: stop_status
+2022-07-01 06:11:01,930 DEBUG   SenderThread:1007258 [sender.py:send_request():193] send_request: stop_status
+2022-07-01 06:11:02,180 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/config.yaml
+2022-07-01 06:11:04,148 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:11:04,153 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:11:04,159 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:11:04,181 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:11:06,182 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:11:07,638 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:11:07,639 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:11:07,643 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:11:08,182 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:11:09,530 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:11:09,530 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:11:09,534 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:11:10,183 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:11:10,184 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:11:12,192 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:11:12,600 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:11:12,601 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:11:12,605 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:11:13,185 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:11:14,185 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:11:16,058 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:11:16,058 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:11:16,064 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:11:16,186 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:11:16,996 DEBUG   HandlerThread:1007258 [handler.py:handle_request():124] handle_request: stop_status
+2022-07-01 06:11:16,996 DEBUG   SenderThread:1007258 [sender.py:send_request():193] send_request: stop_status
+2022-07-01 06:11:18,186 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:11:18,538 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:11:18,543 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:11:18,549 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:11:19,187 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:11:20,187 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:11:22,046 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:11:22,046 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:11:22,051 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:11:22,188 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:11:24,189 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:11:27,220 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:11:27,220 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:11:27,225 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:11:28,190 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:11:29,030 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:11:29,031 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:11:29,035 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:11:29,190 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:11:29,752 DEBUG   SenderThread:1007258 [sender.py:send():179] send: stats
+2022-07-01 06:11:30,191 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:11:30,991 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:11:30,992 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:11:30,996 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:11:31,191 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:11:32,060 DEBUG   HandlerThread:1007258 [handler.py:handle_request():124] handle_request: stop_status
+2022-07-01 06:11:32,061 DEBUG   SenderThread:1007258 [sender.py:send_request():193] send_request: stop_status
+2022-07-01 06:11:32,192 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:11:32,882 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:11:32,886 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:11:32,890 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:11:33,192 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:11:34,192 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:11:34,931 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:11:34,932 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:11:34,936 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:11:34,937 DEBUG   SenderThread:1007258 [sender.py:send():179] send: config
+2022-07-01 06:11:35,193 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:11:35,324 DEBUG   HandlerThread:1007258 [handler.py:handle_request():124] handle_request: log_artifact
+2022-07-01 06:11:35,324 DEBUG   SenderThread:1007258 [sender.py:send_request():193] send_request: log_artifact
+2022-07-01 06:11:35,904 INFO    Thread-17 :1007258 [upload_job.py:push():95] Uploaded file /home/v-linyukong/.cache/wandb/artifacts/obj/md5/49/7010ac406aa4c884e0104dc4db03ea
+2022-07-01 06:11:36,193 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_created():216] file/dir created: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/media/table/plot_id 20_table_22_11b43e613df175047c6c.table.json
+2022-07-01 06:11:36,193 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/media/table
+2022-07-01 06:11:36,439 DEBUG   SenderThread:1007258 [sender.py:send():179] send: files
+2022-07-01 06:11:36,440 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file media/table/plot_id 20_table_22_11b43e613df175047c6c.table.json with policy now
+2022-07-01 06:11:36,562 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:11:36,563 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:11:36,567 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:11:36,805 INFO    Thread-18 :1007258 [upload_job.py:push():137] Uploaded file /tmp/tmpczo415cnwandb/3fhawlbx-media/table/plot_id 20_table_22_11b43e613df175047c6c.table.json
+2022-07-01 06:11:37,193 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:11:38,194 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:11:40,833 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:11:40,833 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:11:40,839 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:11:41,195 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:11:42,195 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:11:47,124 DEBUG   HandlerThread:1007258 [handler.py:handle_request():124] handle_request: stop_status
+2022-07-01 06:11:47,124 DEBUG   SenderThread:1007258 [sender.py:send_request():193] send_request: stop_status
+2022-07-01 06:11:49,021 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:11:49,021 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:11:49,026 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:11:49,198 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:11:50,540 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:11:50,540 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:11:50,544 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:11:51,199 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:11:52,199 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:11:53,916 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:11:53,920 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:11:53,925 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:11:54,200 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:11:55,617 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:11:55,618 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:11:55,622 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:11:56,201 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:11:56,201 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:11:58,201 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:12:00,012 DEBUG   SenderThread:1007258 [sender.py:send():179] send: stats
+2022-07-01 06:12:00,123 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:12:00,124 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:12:00,128 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:12:00,202 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:12:02,203 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:12:02,223 DEBUG   HandlerThread:1007258 [handler.py:handle_request():124] handle_request: stop_status
+2022-07-01 06:12:02,223 DEBUG   SenderThread:1007258 [sender.py:send_request():193] send_request: stop_status
+2022-07-01 06:12:03,203 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/config.yaml
+2022-07-01 06:12:03,819 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:12:03,819 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:12:03,824 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:12:04,204 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:12:06,204 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:12:06,829 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:12:06,830 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:12:06,834 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:12:07,205 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:12:08,205 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:12:13,934 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:12:13,939 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:12:13,945 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:12:14,214 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:12:16,215 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:12:16,300 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:12:16,300 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:12:16,305 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:12:17,215 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:12:17,285 DEBUG   HandlerThread:1007258 [handler.py:handle_request():124] handle_request: stop_status
+2022-07-01 06:12:17,285 DEBUG   SenderThread:1007258 [sender.py:send_request():193] send_request: stop_status
+2022-07-01 06:12:18,222 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:12:19,290 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:12:19,290 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:12:19,295 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:12:20,217 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:12:20,919 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:12:20,920 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:12:20,924 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:12:21,218 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:12:22,218 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:12:29,530 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:12:29,531 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:12:29,537 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:12:30,229 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:12:30,266 DEBUG   SenderThread:1007258 [sender.py:send():179] send: stats
+2022-07-01 06:12:31,655 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:12:31,659 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:12:31,664 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:12:32,229 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:12:32,230 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:12:32,339 DEBUG   HandlerThread:1007258 [handler.py:handle_request():124] handle_request: stop_status
+2022-07-01 06:12:32,339 DEBUG   SenderThread:1007258 [sender.py:send_request():193] send_request: stop_status
+2022-07-01 06:12:34,230 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:12:35,048 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:12:35,048 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:12:35,053 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:12:35,230 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:12:36,231 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:12:37,071 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:12:37,072 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:12:37,076 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:12:37,231 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:12:38,232 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:12:39,551 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:12:39,551 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:12:39,557 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:12:40,232 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:12:41,858 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:12:41,859 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:12:41,863 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:12:42,233 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:12:42,233 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:12:44,234 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:12:46,084 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:12:46,088 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:12:46,093 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:12:46,235 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:12:47,479 DEBUG   HandlerThread:1007258 [handler.py:handle_request():124] handle_request: stop_status
+2022-07-01 06:12:47,480 DEBUG   SenderThread:1007258 [sender.py:send_request():193] send_request: stop_status
+2022-07-01 06:12:48,235 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:12:50,021 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:12:50,026 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:12:50,033 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:12:50,033 DEBUG   SenderThread:1007258 [sender.py:send():179] send: config
+2022-07-01 06:12:50,202 DEBUG   HandlerThread:1007258 [handler.py:handle_request():124] handle_request: log_artifact
+2022-07-01 06:12:50,202 DEBUG   SenderThread:1007258 [sender.py:send_request():193] send_request: log_artifact
+2022-07-01 06:12:50,236 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:12:50,236 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_created():216] file/dir created: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/media/table/plot_id 40_table_43_668f91647faf86128e22.table.json
+2022-07-01 06:12:50,237 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/media/table
+2022-07-01 06:12:50,911 INFO    Thread-20 :1007258 [upload_job.py:push():95] Uploaded file /home/v-linyukong/.cache/wandb/artifacts/obj/md5/4c/69bb2117a418644b7d35e7a1b136fa
+2022-07-01 06:12:51,508 DEBUG   SenderThread:1007258 [sender.py:send():179] send: files
+2022-07-01 06:12:51,508 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file media/table/plot_id 40_table_43_668f91647faf86128e22.table.json with policy now
+2022-07-01 06:12:51,679 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:12:51,679 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:12:51,683 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:12:51,914 INFO    Thread-21 :1007258 [upload_job.py:push():137] Uploaded file /tmp/tmpczo415cnwandb/2p9jips3-media/table/plot_id 40_table_43_668f91647faf86128e22.table.json
+2022-07-01 06:12:52,237 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:12:53,827 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:12:53,827 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:12:53,832 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:12:54,238 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:12:54,238 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:12:56,238 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:12:56,263 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:12:56,263 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:12:56,267 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:12:57,239 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:12:58,239 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:12:59,608 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:12:59,608 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:12:59,613 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:13:00,240 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:13:00,521 DEBUG   SenderThread:1007258 [sender.py:send():179] send: stats
+2022-07-01 06:13:01,894 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:13:01,899 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:13:01,903 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:13:02,241 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:13:02,241 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:13:02,550 DEBUG   HandlerThread:1007258 [handler.py:handle_request():124] handle_request: stop_status
+2022-07-01 06:13:02,550 DEBUG   SenderThread:1007258 [sender.py:send_request():193] send_request: stop_status
+2022-07-01 06:13:03,241 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/config.yaml
+2022-07-01 06:13:04,242 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:13:05,987 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:13:05,987 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:13:05,992 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:13:06,242 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:13:08,243 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:13:09,067 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:13:09,067 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:13:09,072 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:13:09,243 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:13:10,244 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:13:13,509 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:13:13,509 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:13:13,515 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:13:14,245 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:13:16,246 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:13:17,174 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:13:17,174 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:13:17,178 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:13:17,246 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:13:17,618 DEBUG   HandlerThread:1007258 [handler.py:handle_request():124] handle_request: stop_status
+2022-07-01 06:13:17,618 DEBUG   SenderThread:1007258 [sender.py:send_request():193] send_request: stop_status
+2022-07-01 06:13:18,247 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:13:18,782 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:13:18,787 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:13:18,791 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:13:19,247 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:13:20,248 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:13:22,427 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:13:22,427 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:13:22,431 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:13:23,249 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:13:24,249 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:13:27,764 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:13:27,765 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:13:27,771 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:13:28,250 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:13:30,254 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:13:30,426 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:13:30,426 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:13:30,431 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:13:30,775 DEBUG   SenderThread:1007258 [sender.py:send():179] send: stats
+2022-07-01 06:13:31,252 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:13:32,190 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:13:32,190 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:13:32,226 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:13:32,252 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:13:32,252 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:13:32,675 DEBUG   HandlerThread:1007258 [handler.py:handle_request():124] handle_request: stop_status
+2022-07-01 06:13:32,675 DEBUG   SenderThread:1007258 [sender.py:send_request():193] send_request: stop_status
+2022-07-01 06:13:33,771 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:13:33,775 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:13:33,780 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:13:34,253 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:13:34,253 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:13:36,254 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:13:36,410 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:13:36,410 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:13:36,415 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:13:37,254 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:13:37,952 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:13:37,953 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:13:37,959 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:13:38,254 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:13:38,255 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:13:39,489 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:13:39,489 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:13:39,494 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:13:40,255 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:13:40,255 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:13:41,004 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:13:41,005 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:13:41,009 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:13:41,256 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:13:42,256 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:13:42,574 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:13:42,578 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:13:42,583 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:13:43,256 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:13:44,099 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:13:44,099 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:13:44,104 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:13:44,104 DEBUG   SenderThread:1007258 [sender.py:send():179] send: config
+2022-07-01 06:13:44,200 DEBUG   HandlerThread:1007258 [handler.py:handle_request():124] handle_request: log_artifact
+2022-07-01 06:13:44,201 DEBUG   SenderThread:1007258 [sender.py:send_request():193] send_request: log_artifact
+2022-07-01 06:13:44,257 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:13:44,257 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:13:44,257 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_created():216] file/dir created: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/media/table/plot_id 60_table_64_e3808301653ca469311d.table.json
+2022-07-01 06:13:44,257 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/media/table
+2022-07-01 06:13:44,753 INFO    Thread-23 :1007258 [upload_job.py:push():95] Uploaded file /home/v-linyukong/.cache/wandb/artifacts/obj/md5/d0/90d74e7437713279a2aef2b02431e7
+2022-07-01 06:13:45,372 DEBUG   SenderThread:1007258 [sender.py:send():179] send: files
+2022-07-01 06:13:45,372 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file media/table/plot_id 60_table_64_e3808301653ca469311d.table.json with policy now
+2022-07-01 06:13:45,495 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:13:45,496 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:13:45,500 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:13:45,834 INFO    Thread-24 :1007258 [upload_job.py:push():137] Uploaded file /tmp/tmpczo415cnwandb/1xvkcv3w-media/table/plot_id 60_table_64_e3808301653ca469311d.table.json
+2022-07-01 06:13:46,257 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:13:47,198 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:13:47,199 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:13:47,203 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:13:47,258 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:13:47,750 DEBUG   HandlerThread:1007258 [handler.py:handle_request():124] handle_request: stop_status
+2022-07-01 06:13:47,751 DEBUG   SenderThread:1007258 [sender.py:send_request():193] send_request: stop_status
+2022-07-01 06:13:48,258 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:13:49,290 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:13:49,291 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:13:49,297 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:13:50,259 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:13:50,259 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:13:50,851 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:13:50,852 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:13:50,856 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:13:51,260 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:13:52,260 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:13:52,458 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:13:52,462 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:13:52,466 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:13:53,260 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:13:54,261 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:13:54,424 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:13:54,425 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:13:54,429 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:13:55,261 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:13:55,954 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:13:55,955 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:13:55,959 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:13:56,262 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:13:56,262 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:13:57,491 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:13:57,491 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:13:57,495 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:13:58,262 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:13:58,263 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:13:59,019 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:13:59,019 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:13:59,023 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:13:59,263 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:14:00,263 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:14:00,583 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:14:00,587 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:14:00,592 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:14:01,013 DEBUG   SenderThread:1007258 [sender.py:send():179] send: stats
+2022-07-01 06:14:01,263 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:14:02,264 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:14:02,268 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:14:02,268 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:14:02,273 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:14:02,820 DEBUG   HandlerThread:1007258 [handler.py:handle_request():124] handle_request: stop_status
+2022-07-01 06:14:02,821 DEBUG   SenderThread:1007258 [sender.py:send_request():193] send_request: stop_status
+2022-07-01 06:14:03,264 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/config.yaml
+2022-07-01 06:14:03,264 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:14:03,797 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:14:03,797 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:14:03,801 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:14:04,265 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:14:04,265 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:14:05,452 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:14:05,452 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:14:05,457 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:14:06,265 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:14:06,266 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:14:07,073 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:14:07,074 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:14:07,078 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:14:07,266 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:14:08,266 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:14:08,598 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:14:08,603 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:14:08,607 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:14:09,267 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:14:10,118 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:14:10,119 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:14:10,123 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:14:10,267 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:14:10,267 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:14:11,654 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:14:11,654 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:14:11,659 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:14:12,268 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:14:12,268 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:14:13,178 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:14:13,178 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:14:13,183 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:14:13,268 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:14:14,268 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:14:14,699 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:14:14,700 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:14:14,704 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:14:15,269 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:14:16,269 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:14:16,290 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:14:16,295 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:14:16,299 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:14:17,270 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:14:17,831 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:14:17,831 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:14:17,836 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:14:17,836 DEBUG   SenderThread:1007258 [sender.py:send():179] send: config
+2022-07-01 06:14:17,890 DEBUG   HandlerThread:1007258 [handler.py:handle_request():124] handle_request: stop_status
+2022-07-01 06:14:17,890 DEBUG   SenderThread:1007258 [sender.py:send_request():193] send_request: stop_status
+2022-07-01 06:14:17,914 DEBUG   HandlerThread:1007258 [handler.py:handle_request():124] handle_request: log_artifact
+2022-07-01 06:14:17,943 DEBUG   SenderThread:1007258 [sender.py:send_request():193] send_request: log_artifact
+2022-07-01 06:14:18,270 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:14:18,270 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:14:18,270 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_created():216] file/dir created: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/media/table/plot_id 80_table_85_b7f1b565d1e3760b996a.table.json
+2022-07-01 06:14:18,270 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/media/table
+2022-07-01 06:14:18,486 INFO    Thread-26 :1007258 [upload_job.py:push():95] Uploaded file /home/v-linyukong/.cache/wandb/artifacts/obj/md5/83/cb98ebe726969b96fe9322df5adbb8
+2022-07-01 06:14:19,115 DEBUG   SenderThread:1007258 [sender.py:send():179] send: files
+2022-07-01 06:14:19,115 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file media/table/plot_id 80_table_85_b7f1b565d1e3760b996a.table.json with policy now
+2022-07-01 06:14:19,304 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:14:19,304 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:14:19,325 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:14:19,518 INFO    Thread-27 :1007258 [upload_job.py:push():137] Uploaded file /tmp/tmpczo415cnwandb/2hrckps0-media/table/plot_id 80_table_85_b7f1b565d1e3760b996a.table.json
+2022-07-01 06:14:20,271 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:14:20,271 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:14:20,876 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:14:20,876 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:14:20,881 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:14:21,271 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:14:22,271 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:14:22,560 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:14:22,560 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:14:22,564 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:14:23,272 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:14:24,063 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:14:24,063 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:14:24,068 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:14:24,272 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:14:24,272 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:14:25,805 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:14:25,809 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:14:25,813 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:14:26,273 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:14:26,273 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:14:27,309 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:14:27,309 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:14:27,314 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:14:28,274 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:14:28,274 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:14:28,852 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:14:28,852 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:14:28,856 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:14:29,274 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:14:30,274 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:14:30,378 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:14:30,378 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:14:30,382 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:14:31,226 DEBUG   SenderThread:1007258 [sender.py:send():179] send: stats
+2022-07-01 06:14:31,275 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:14:32,275 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:14:32,305 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:14:32,306 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:14:32,310 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:14:32,944 DEBUG   HandlerThread:1007258 [handler.py:handle_request():124] handle_request: stop_status
+2022-07-01 06:14:32,945 DEBUG   SenderThread:1007258 [sender.py:send_request():193] send_request: stop_status
+2022-07-01 06:14:33,275 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/config.yaml
+2022-07-01 06:14:33,276 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:14:33,873 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:14:33,878 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:14:33,882 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:14:34,276 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:14:34,276 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:14:35,378 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:14:35,379 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:14:35,383 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:14:36,277 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:14:36,277 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:14:36,901 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:14:36,901 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:14:36,905 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:14:37,277 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:14:38,277 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:14:38,452 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:14:38,452 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:14:38,457 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:14:39,278 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:14:39,974 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:14:39,975 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:14:39,979 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:14:40,278 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:14:40,278 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:14:41,553 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:14:41,558 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:14:41,562 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:14:42,279 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:14:42,279 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:14:43,195 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:14:43,195 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:14:43,200 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:14:43,279 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:14:44,280 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:14:44,728 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:14:44,729 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:14:44,733 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:14:45,280 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:14:46,278 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:14:46,278 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:14:46,283 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:14:46,283 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:14:46,284 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:14:47,868 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:14:47,869 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:14:47,873 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:14:48,010 DEBUG   HandlerThread:1007258 [handler.py:handle_request():124] handle_request: stop_status
+2022-07-01 06:14:48,010 DEBUG   SenderThread:1007258 [sender.py:send_request():193] send_request: stop_status
+2022-07-01 06:14:48,284 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:14:48,284 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:14:49,395 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:14:49,399 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:14:49,403 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:14:50,285 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:14:50,285 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:14:50,925 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:14:50,925 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:14:50,930 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:14:50,930 DEBUG   SenderThread:1007258 [sender.py:send():179] send: config
+2022-07-01 06:14:51,244 DEBUG   HandlerThread:1007258 [handler.py:handle_request():124] handle_request: log_artifact
+2022-07-01 06:14:51,244 DEBUG   SenderThread:1007258 [sender.py:send_request():193] send_request: log_artifact
+2022-07-01 06:14:51,285 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:14:51,285 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_created():216] file/dir created: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/media/table/plot_id 100_table_106_28cd5617a12904d1da0c.table.json
+2022-07-01 06:14:51,286 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/media/table
+2022-07-01 06:14:51,771 INFO    Thread-29 :1007258 [upload_job.py:push():95] Uploaded file /home/v-linyukong/.cache/wandb/artifacts/obj/md5/e0/e09d9c6bd70e7bb2d465b919248fd5
+2022-07-01 06:14:52,631 DEBUG   SenderThread:1007258 [sender.py:send():179] send: files
+2022-07-01 06:14:52,631 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file media/table/plot_id 100_table_106_28cd5617a12904d1da0c.table.json with policy now
+2022-07-01 06:14:52,795 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:14:52,795 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:14:52,800 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:14:53,014 INFO    Thread-30 :1007258 [upload_job.py:push():137] Uploaded file /tmp/tmpczo415cnwandb/qup8y0fj-media/table/plot_id 100_table_106_28cd5617a12904d1da0c.table.json
+2022-07-01 06:14:53,286 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:14:54,286 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:14:54,400 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:14:54,401 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:14:54,405 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:14:55,287 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:14:56,086 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:14:56,087 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:14:56,091 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:14:56,287 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:14:56,287 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:14:57,619 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:14:57,620 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:14:57,624 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:14:58,288 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:14:58,288 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:14:59,195 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:14:59,200 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:14:59,204 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:14:59,288 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:15:00,289 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:15:00,733 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:15:00,734 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:15:00,738 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:15:01,289 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:15:01,442 DEBUG   SenderThread:1007258 [sender.py:send():179] send: stats
+2022-07-01 06:15:02,290 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:15:02,560 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:15:02,560 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:15:02,565 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:15:03,073 DEBUG   HandlerThread:1007258 [handler.py:handle_request():124] handle_request: stop_status
+2022-07-01 06:15:03,073 DEBUG   SenderThread:1007258 [sender.py:send_request():193] send_request: stop_status
+2022-07-01 06:15:03,290 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/config.yaml
+2022-07-01 06:15:03,290 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:15:04,251 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:15:04,251 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:15:04,256 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:15:04,291 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:15:04,291 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:15:05,835 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:15:05,836 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:15:05,840 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:15:06,291 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:15:06,292 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:15:07,378 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:15:07,383 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:15:07,387 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:15:08,292 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:15:08,293 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:15:09,068 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:15:09,068 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:15:09,073 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:15:09,293 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:15:10,293 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:15:10,605 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:15:10,605 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:15:10,609 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:15:11,294 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:15:12,149 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:15:12,150 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:15:12,154 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:15:12,294 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:15:12,294 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:15:13,718 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:15:13,718 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:15:13,722 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:15:14,295 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:15:14,295 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:15:15,274 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:15:15,279 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:15:15,283 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:15:15,295 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:15:16,296 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:15:16,818 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:15:16,819 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:15:16,823 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:15:17,296 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:15:18,148 DEBUG   HandlerThread:1007258 [handler.py:handle_request():124] handle_request: stop_status
+2022-07-01 06:15:18,148 DEBUG   SenderThread:1007258 [sender.py:send_request():193] send_request: stop_status
+2022-07-01 06:15:18,296 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:15:20,297 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:15:22,308 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:15:22,784 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:15:22,784 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:15:22,791 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:15:22,791 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:15:22,791 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:15:22,796 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:15:22,796 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:15:22,796 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:15:22,800 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:15:23,054 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:15:23,058 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:15:23,062 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:15:23,309 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:15:24,309 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:15:24,764 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:15:24,764 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:15:24,769 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:15:24,769 DEBUG   SenderThread:1007258 [sender.py:send():179] send: config
+2022-07-01 06:15:24,845 DEBUG   HandlerThread:1007258 [handler.py:handle_request():124] handle_request: log_artifact
+2022-07-01 06:15:24,845 DEBUG   SenderThread:1007258 [sender.py:send_request():193] send_request: log_artifact
+2022-07-01 06:15:25,309 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:15:25,309 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_created():216] file/dir created: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/media/table/plot_id 120_table_127_62da64382dc3f3b12a8a.table.json
+2022-07-01 06:15:25,310 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/media/table
+2022-07-01 06:15:25,401 INFO    Thread-32 :1007258 [upload_job.py:push():95] Uploaded file /home/v-linyukong/.cache/wandb/artifacts/obj/md5/dd/3d2ed2b95ecf0704a1200eaef61280
+2022-07-01 06:15:25,935 DEBUG   SenderThread:1007258 [sender.py:send():179] send: files
+2022-07-01 06:15:25,935 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file media/table/plot_id 120_table_127_62da64382dc3f3b12a8a.table.json with policy now
+2022-07-01 06:15:26,082 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:15:26,082 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:15:26,087 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:15:26,279 INFO    Thread-33 :1007258 [upload_job.py:push():137] Uploaded file /tmp/tmpczo415cnwandb/2tdvkwui-media/table/plot_id 120_table_127_62da64382dc3f3b12a8a.table.json
+2022-07-01 06:15:26,310 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:15:27,687 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:15:27,688 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:15:27,692 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:15:28,310 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:15:28,311 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:15:29,187 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:15:29,187 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:15:29,192 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:15:29,311 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:15:30,311 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:15:30,699 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:15:30,699 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:15:30,704 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:15:31,312 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:15:31,659 DEBUG   SenderThread:1007258 [sender.py:send():179] send: stats
+2022-07-01 06:15:32,293 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:15:32,298 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:15:32,302 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:15:32,312 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:15:32,312 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:15:33,834 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:15:33,834 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:15:33,839 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:15:34,313 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/config.yaml
+2022-07-01 06:15:34,313 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:15:34,313 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:15:35,368 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:15:35,368 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:15:35,373 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:15:36,314 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:15:36,314 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:15:36,887 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:15:36,888 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:15:36,892 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:15:37,314 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:15:37,785 DEBUG   HandlerThread:1007258 [handler.py:handle_request():124] handle_request: stop_status
+2022-07-01 06:15:37,785 DEBUG   SenderThread:1007258 [sender.py:send_request():193] send_request: stop_status
+2022-07-01 06:15:38,315 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:15:38,420 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:15:38,420 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:15:38,425 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:15:39,315 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:15:40,134 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:15:40,139 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:15:40,144 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:15:40,316 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:15:40,316 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:15:41,627 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:15:41,627 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:15:41,632 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:15:42,316 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:15:42,317 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:15:43,152 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:15:43,152 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:15:43,157 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:15:43,317 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:15:44,317 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:15:44,666 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:15:44,666 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:15:44,670 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:15:45,318 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:15:46,195 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:15:46,196 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:15:46,200 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:15:46,318 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:15:46,318 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:15:47,787 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:15:47,792 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:15:47,796 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:15:48,319 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:15:48,319 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:15:49,302 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:15:49,303 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:15:49,307 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:15:49,319 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:15:50,320 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:15:50,857 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:15:50,857 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:15:50,862 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:15:51,320 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:15:52,321 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:15:52,385 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:15:52,385 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:15:52,390 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:15:52,911 DEBUG   HandlerThread:1007258 [handler.py:handle_request():124] handle_request: stop_status
+2022-07-01 06:15:52,912 DEBUG   SenderThread:1007258 [sender.py:send_request():193] send_request: stop_status
+2022-07-01 06:15:53,321 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:15:53,948 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:15:53,949 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:15:53,953 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:15:54,322 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:15:54,322 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:15:55,678 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:15:55,682 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:15:55,686 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:15:56,323 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:15:56,323 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:15:57,202 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:15:57,202 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:15:57,207 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:15:57,208 DEBUG   SenderThread:1007258 [sender.py:send():179] send: config
+2022-07-01 06:15:57,278 DEBUG   HandlerThread:1007258 [handler.py:handle_request():124] handle_request: log_artifact
+2022-07-01 06:15:57,278 DEBUG   SenderThread:1007258 [sender.py:send_request():193] send_request: log_artifact
+2022-07-01 06:15:57,323 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:15:57,323 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_created():216] file/dir created: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/media/table/plot_id 140_table_148_3778be34c3af8e4b6d0e.table.json
+2022-07-01 06:15:57,324 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/media/table
+2022-07-01 06:15:57,954 INFO    Thread-35 :1007258 [upload_job.py:push():95] Uploaded file /home/v-linyukong/.cache/wandb/artifacts/obj/md5/79/4824ea6e97d1cbc44a430e1e00f713
+2022-07-01 06:15:58,324 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:15:58,905 DEBUG   SenderThread:1007258 [sender.py:send():179] send: files
+2022-07-01 06:15:58,905 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file media/table/plot_id 140_table_148_3778be34c3af8e4b6d0e.table.json with policy now
+2022-07-01 06:15:59,058 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:15:59,058 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:15:59,090 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:15:59,232 INFO    Thread-36 :1007258 [upload_job.py:push():137] Uploaded file /tmp/tmpczo415cnwandb/1cef8cu7-media/table/plot_id 140_table_148_3778be34c3af8e4b6d0e.table.json
+2022-07-01 06:15:59,324 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:16:00,324 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:16:00,817 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:16:00,817 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:16:00,821 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:16:01,325 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:16:01,883 DEBUG   SenderThread:1007258 [sender.py:send():179] send: stats
+2022-07-01 06:16:02,325 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:16:02,392 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:16:02,392 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:16:02,397 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:16:03,326 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:16:04,038 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:16:04,038 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:16:04,042 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:16:04,326 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/config.yaml
+2022-07-01 06:16:04,326 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:16:04,326 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:16:05,595 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:16:05,600 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:16:05,604 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:16:06,327 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:16:06,327 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:16:07,249 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:16:07,249 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:16:07,254 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:16:07,328 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:16:07,970 DEBUG   HandlerThread:1007258 [handler.py:handle_request():124] handle_request: stop_status
+2022-07-01 06:16:07,971 DEBUG   SenderThread:1007258 [sender.py:send_request():193] send_request: stop_status
+2022-07-01 06:16:08,328 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:16:08,772 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:16:08,772 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:16:08,777 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:16:09,328 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:16:10,294 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:16:10,294 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:16:10,299 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:16:10,329 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:16:10,329 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:16:11,801 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:16:11,801 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:16:11,806 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:16:12,330 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:16:12,330 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:16:13,391 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:16:13,396 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:16:13,400 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:16:14,331 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:16:14,331 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:16:14,909 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:16:14,909 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:16:14,914 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:16:15,331 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:16:16,332 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:16:17,035 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:16:17,035 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:16:17,040 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:16:17,332 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:16:18,333 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:16:18,573 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:16:18,573 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:16:18,578 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:16:19,333 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:16:20,122 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:16:20,123 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:16:20,127 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:16:20,333 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:16:20,334 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:16:21,689 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:16:21,693 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:16:21,697 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:16:22,334 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:16:22,334 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:16:23,029 DEBUG   HandlerThread:1007258 [handler.py:handle_request():124] handle_request: stop_status
+2022-07-01 06:16:23,029 DEBUG   SenderThread:1007258 [sender.py:send_request():193] send_request: stop_status
+2022-07-01 06:16:23,232 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:16:23,233 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:16:23,237 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:16:23,335 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:16:24,335 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:16:24,755 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:16:24,756 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:16:24,761 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:16:25,336 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:16:26,336 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:16:26,489 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:16:26,490 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:16:26,494 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:16:27,337 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:16:28,027 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:16:28,027 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:16:28,031 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:16:28,337 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:16:28,337 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:16:29,590 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:16:29,595 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:16:29,599 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:16:30,338 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:16:30,338 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:16:31,161 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:16:31,161 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:16:31,166 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:16:31,166 DEBUG   SenderThread:1007258 [sender.py:send():179] send: config
+2022-07-01 06:16:31,241 DEBUG   HandlerThread:1007258 [handler.py:handle_request():124] handle_request: log_artifact
+2022-07-01 06:16:31,242 DEBUG   SenderThread:1007258 [sender.py:send_request():193] send_request: log_artifact
+2022-07-01 06:16:31,339 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:16:31,339 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_created():216] file/dir created: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/media/table/plot_id 160_table_169_4c1ad5ff994ccf4cc8ba.table.json
+2022-07-01 06:16:31,339 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/media/table
+2022-07-01 06:16:32,001 INFO    Thread-38 :1007258 [upload_job.py:push():95] Uploaded file /home/v-linyukong/.cache/wandb/artifacts/obj/md5/c6/0440727ddf4098687770da8c09113d
+2022-07-01 06:16:32,339 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:16:32,674 DEBUG   SenderThread:1007258 [sender.py:send():179] send: files
+2022-07-01 06:16:32,674 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file media/table/plot_id 160_table_169_4c1ad5ff994ccf4cc8ba.table.json with policy now
+2022-07-01 06:16:32,674 DEBUG   SenderThread:1007258 [sender.py:send():179] send: stats
+2022-07-01 06:16:32,829 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:16:32,829 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:16:32,835 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:16:33,000 INFO    Thread-39 :1007258 [upload_job.py:push():137] Uploaded file /tmp/tmpczo415cnwandb/1xawb6am-media/table/plot_id 160_table_169_4c1ad5ff994ccf4cc8ba.table.json
+2022-07-01 06:16:33,340 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:16:34,340 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:16:34,455 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:16:34,648 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:16:34,652 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:16:35,340 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/config.yaml
+2022-07-01 06:16:35,341 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:16:36,020 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:16:36,020 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:16:36,104 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:16:36,341 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:16:36,341 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:16:37,668 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:16:37,668 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:16:37,673 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:16:38,087 DEBUG   HandlerThread:1007258 [handler.py:handle_request():124] handle_request: stop_status
+2022-07-01 06:16:38,087 DEBUG   SenderThread:1007258 [sender.py:send_request():193] send_request: stop_status
+2022-07-01 06:16:38,342 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:16:38,342 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:16:39,285 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:16:39,290 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:16:39,294 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:16:39,342 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:16:40,343 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:16:40,801 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:16:40,802 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:16:40,806 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:16:41,343 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:16:42,344 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:16:42,362 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:16:42,363 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:16:42,367 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:16:43,344 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:16:43,879 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:16:43,879 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:16:43,884 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:16:44,344 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:16:44,345 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:16:45,461 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:16:45,461 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:16:45,466 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:16:46,345 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:16:46,345 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:16:47,280 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:16:47,285 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:16:47,290 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:16:47,346 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:16:48,346 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:16:48,850 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:16:48,850 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:16:48,855 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:16:49,346 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:16:50,347 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:16:50,372 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:16:50,372 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:16:50,377 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:16:51,347 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:16:51,904 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:16:51,904 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:16:51,909 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:16:52,348 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:16:52,348 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:16:53,145 DEBUG   HandlerThread:1007258 [handler.py:handle_request():124] handle_request: stop_status
+2022-07-01 06:16:53,146 DEBUG   SenderThread:1007258 [sender.py:send_request():193] send_request: stop_status
+2022-07-01 06:16:53,451 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:16:53,451 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:16:53,456 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:16:54,348 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:16:54,349 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:16:55,051 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:16:55,055 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:16:55,060 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:16:55,349 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:16:56,349 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:16:56,589 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:16:56,590 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:16:56,594 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:16:57,350 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:16:58,102 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:16:58,103 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:16:58,107 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:16:58,350 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:16:58,351 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:16:59,649 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:16:59,650 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:16:59,654 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:17:00,351 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:17:00,352 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:17:01,179 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:17:01,180 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:17:01,184 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:17:01,352 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:17:02,337 DEBUG   SenderThread:1007258 [sender.py:send():179] send: stats
+2022-07-01 06:17:02,352 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:17:04,403 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:17:04,408 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:17:04,412 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:17:05,354 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:17:05,940 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:17:05,941 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:17:05,945 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:17:05,945 DEBUG   SenderThread:1007258 [sender.py:send():179] send: config
+2022-07-01 06:17:06,042 DEBUG   HandlerThread:1007258 [handler.py:handle_request():124] handle_request: log_artifact
+2022-07-01 06:17:06,042 DEBUG   SenderThread:1007258 [sender.py:send_request():193] send_request: log_artifact
+2022-07-01 06:17:06,354 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:17:06,354 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:17:06,354 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_created():216] file/dir created: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/media/table/plot_id 180_table_190_4dc7d947abfe9127ccc0.table.json
+2022-07-01 06:17:06,355 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/media/table
+2022-07-01 06:17:06,575 INFO    Thread-41 :1007258 [upload_job.py:push():95] Uploaded file /home/v-linyukong/.cache/wandb/artifacts/obj/md5/3f/5ea76faaa296da7e2551426a2ffac4
+2022-07-01 06:17:07,174 DEBUG   SenderThread:1007258 [sender.py:send():179] send: files
+2022-07-01 06:17:07,175 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file media/table/plot_id 180_table_190_4dc7d947abfe9127ccc0.table.json with policy now
+2022-07-01 06:17:07,296 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:17:07,296 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:17:07,351 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:17:07,354 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:17:07,512 INFO    Thread-42 :1007258 [upload_job.py:push():137] Uploaded file /tmp/tmpczo415cnwandb/1e6ww7ar-media/table/plot_id 180_table_190_4dc7d947abfe9127ccc0.table.json
+2022-07-01 06:17:08,205 DEBUG   HandlerThread:1007258 [handler.py:handle_request():124] handle_request: stop_status
+2022-07-01 06:17:08,205 DEBUG   SenderThread:1007258 [sender.py:send_request():193] send_request: stop_status
+2022-07-01 06:17:08,355 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:17:08,912 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:17:08,913 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:17:08,917 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:17:09,355 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:17:10,356 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:17:10,451 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:17:10,451 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:17:10,456 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:17:11,357 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:17:11,982 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:17:11,982 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:17:11,987 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:17:12,357 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:17:12,357 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:17:13,563 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:17:13,568 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:17:13,572 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:17:14,358 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:17:14,358 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:17:15,121 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:17:15,121 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:17:15,126 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:17:15,359 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:17:16,359 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:17:16,665 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:17:16,666 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:17:16,670 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:17:17,360 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:17:18,219 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:17:18,220 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:17:18,225 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:17:18,360 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:17:18,360 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:17:19,723 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:17:19,723 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:17:19,728 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:17:20,361 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:17:20,361 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:17:21,336 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:17:21,341 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:17:21,345 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:17:21,362 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:17:22,362 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:17:22,861 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:17:22,862 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:17:22,867 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:17:23,264 DEBUG   HandlerThread:1007258 [handler.py:handle_request():124] handle_request: stop_status
+2022-07-01 06:17:23,264 DEBUG   SenderThread:1007258 [sender.py:send_request():193] send_request: stop_status
+2022-07-01 06:17:23,362 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:17:24,363 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:17:24,401 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:17:24,402 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:17:24,407 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:17:25,363 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:17:25,953 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:17:25,954 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:17:25,958 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:17:26,364 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:17:26,364 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:17:27,491 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:17:27,492 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:17:27,496 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:17:28,365 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:17:28,365 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:17:29,086 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:17:29,090 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:17:29,094 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:17:29,366 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:17:30,366 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:17:30,593 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:17:30,593 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:17:30,598 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:17:31,366 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:17:32,101 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:17:32,101 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:17:32,106 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:17:32,367 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:17:32,367 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:17:32,548 DEBUG   SenderThread:1007258 [sender.py:send():179] send: stats
+2022-07-01 06:17:33,670 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:17:33,670 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:17:33,674 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:17:34,368 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:17:34,368 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:17:35,227 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:17:35,227 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:17:35,232 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:17:35,369 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:17:36,369 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/config.yaml
+2022-07-01 06:17:36,369 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:17:36,775 DEBUG   SenderThread:1007258 [sender.py:send():179] send: history
+2022-07-01 06:17:36,780 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:17:36,784 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:17:37,370 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:17:38,370 INFO    Thread-8  :1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:17:39,523 DEBUG   SenderThread:1007258 [sender.py:send():179] send: telemetry
+2022-07-01 06:17:39,523 DEBUG   SenderThread:1007258 [sender.py:send():179] send: exit
+2022-07-01 06:17:39,523 INFO    SenderThread:1007258 [sender.py:send_exit():287] handling exit code: 0
+2022-07-01 06:17:39,523 INFO    SenderThread:1007258 [sender.py:send_exit():295] send defer
+2022-07-01 06:17:39,524 DEBUG   HandlerThread:1007258 [handler.py:handle_request():124] handle_request: poll_exit
+2022-07-01 06:17:39,524 DEBUG   SenderThread:1007258 [sender.py:send_request():193] send_request: poll_exit
+2022-07-01 06:17:39,524 DEBUG   HandlerThread:1007258 [handler.py:handle_request():124] handle_request: defer
+2022-07-01 06:17:39,524 INFO    HandlerThread:1007258 [handler.py:handle_request_defer():141] handle defer: 0
+2022-07-01 06:17:39,525 DEBUG   SenderThread:1007258 [sender.py:send_request():193] send_request: defer
+2022-07-01 06:17:39,525 INFO    SenderThread:1007258 [sender.py:send_request_defer():304] handle sender defer: 0
+2022-07-01 06:17:39,525 INFO    SenderThread:1007258 [sender.py:transition_state():308] send defer: 1
+2022-07-01 06:17:39,525 DEBUG   HandlerThread:1007258 [handler.py:handle_request():124] handle_request: defer
+2022-07-01 06:17:39,525 INFO    HandlerThread:1007258 [handler.py:handle_request_defer():141] handle defer: 1
+2022-07-01 06:17:39,609 DEBUG   SenderThread:1007258 [sender.py:send_request():193] send_request: defer
+2022-07-01 06:17:39,609 INFO    SenderThread:1007258 [sender.py:send_request_defer():304] handle sender defer: 1
+2022-07-01 06:17:39,609 INFO    SenderThread:1007258 [sender.py:transition_state():308] send defer: 2
+2022-07-01 06:17:39,610 DEBUG   HandlerThread:1007258 [handler.py:handle_request():124] handle_request: defer
+2022-07-01 06:17:39,610 DEBUG   SenderThread:1007258 [sender.py:send():179] send: stats
+2022-07-01 06:17:39,610 INFO    HandlerThread:1007258 [handler.py:handle_request_defer():141] handle defer: 2
+2022-07-01 06:17:39,610 DEBUG   SenderThread:1007258 [sender.py:send_request():193] send_request: defer
+2022-07-01 06:17:39,610 INFO    SenderThread:1007258 [sender.py:send_request_defer():304] handle sender defer: 2
+2022-07-01 06:17:39,610 INFO    SenderThread:1007258 [sender.py:transition_state():308] send defer: 3
+2022-07-01 06:17:39,611 DEBUG   HandlerThread:1007258 [handler.py:handle_request():124] handle_request: defer
+2022-07-01 06:17:39,611 INFO    HandlerThread:1007258 [handler.py:handle_request_defer():141] handle defer: 3
+2022-07-01 06:17:39,614 DEBUG   SenderThread:1007258 [sender.py:send():179] send: summary
+2022-07-01 06:17:39,618 INFO    SenderThread:1007258 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2022-07-01 06:17:39,619 DEBUG   SenderThread:1007258 [sender.py:send_request():193] send_request: defer
+2022-07-01 06:17:39,619 INFO    SenderThread:1007258 [sender.py:send_request_defer():304] handle sender defer: 3
+2022-07-01 06:17:39,619 INFO    SenderThread:1007258 [sender.py:transition_state():308] send defer: 4
+2022-07-01 06:17:39,619 DEBUG   HandlerThread:1007258 [handler.py:handle_request():124] handle_request: defer
+2022-07-01 06:17:39,619 INFO    HandlerThread:1007258 [handler.py:handle_request_defer():141] handle defer: 4
+2022-07-01 06:17:39,619 DEBUG   SenderThread:1007258 [sender.py:send_request():193] send_request: defer
+2022-07-01 06:17:39,619 INFO    SenderThread:1007258 [sender.py:send_request_defer():304] handle sender defer: 4
+2022-07-01 06:17:39,625 DEBUG   HandlerThread:1007258 [handler.py:handle_request():124] handle_request: poll_exit
+2022-07-01 06:17:39,722 INFO    SenderThread:1007258 [sender.py:transition_state():308] send defer: 5
+2022-07-01 06:17:39,722 DEBUG   SenderThread:1007258 [sender.py:send_request():193] send_request: poll_exit
+2022-07-01 06:17:39,723 DEBUG   HandlerThread:1007258 [handler.py:handle_request():124] handle_request: defer
+2022-07-01 06:17:39,723 INFO    HandlerThread:1007258 [handler.py:handle_request_defer():141] handle defer: 5
+2022-07-01 06:17:39,723 DEBUG   SenderThread:1007258 [sender.py:send_request():193] send_request: defer
+2022-07-01 06:17:39,723 INFO    SenderThread:1007258 [sender.py:send_request_defer():304] handle sender defer: 5
+2022-07-01 06:17:39,723 INFO    SenderThread:1007258 [dir_watcher.py:finish():282] shutting down directory watcher
+2022-07-01 06:17:39,823 DEBUG   HandlerThread:1007258 [handler.py:handle_request():124] handle_request: poll_exit
+2022-07-01 06:17:40,371 INFO    SenderThread:1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/config.yaml
+2022-07-01 06:17:40,371 INFO    SenderThread:1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:17:40,371 INFO    SenderThread:1007258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:17:40,372 INFO    SenderThread:1007258 [dir_watcher.py:finish():312] scan: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files
+2022-07-01 06:17:40,372 INFO    SenderThread:1007258 [dir_watcher.py:finish():318] scan save: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-metadata.json wandb-metadata.json
+2022-07-01 06:17:40,372 INFO    SenderThread:1007258 [dir_watcher.py:finish():318] scan save: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log output.log
+2022-07-01 06:17:40,372 INFO    SenderThread:1007258 [dir_watcher.py:finish():318] scan save: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json wandb-summary.json
+2022-07-01 06:17:40,375 INFO    SenderThread:1007258 [dir_watcher.py:finish():318] scan save: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/conda-environment.yaml conda-environment.yaml
+2022-07-01 06:17:40,375 INFO    SenderThread:1007258 [dir_watcher.py:finish():318] scan save: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/requirements.txt requirements.txt
+2022-07-01 06:17:40,375 INFO    SenderThread:1007258 [dir_watcher.py:finish():318] scan save: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/config.yaml config.yaml
+2022-07-01 06:17:40,381 INFO    SenderThread:1007258 [dir_watcher.py:finish():318] scan save: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/media/graph/graph_0_summary_9bbcef504c6722c4d46d.graph.json media/graph/graph_0_summary_9bbcef504c6722c4d46d.graph.json
+2022-07-01 06:17:40,384 INFO    SenderThread:1007258 [dir_watcher.py:finish():318] scan save: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/media/table/plot_id 160_table_169_4c1ad5ff994ccf4cc8ba.table.json media/table/plot_id 160_table_169_4c1ad5ff994ccf4cc8ba.table.json
+2022-07-01 06:17:40,384 INFO    SenderThread:1007258 [dir_watcher.py:finish():318] scan save: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/media/table/plot_id 140_table_148_3778be34c3af8e4b6d0e.table.json media/table/plot_id 140_table_148_3778be34c3af8e4b6d0e.table.json
+2022-07-01 06:17:40,384 INFO    SenderThread:1007258 [dir_watcher.py:finish():318] scan save: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/media/table/plot_id 40_table_43_668f91647faf86128e22.table.json media/table/plot_id 40_table_43_668f91647faf86128e22.table.json
+2022-07-01 06:17:40,384 INFO    SenderThread:1007258 [dir_watcher.py:finish():318] scan save: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/media/table/plot_id 0_table_1_f196c248bd4029c47828.table.json media/table/plot_id 0_table_1_f196c248bd4029c47828.table.json
+2022-07-01 06:17:40,385 INFO    SenderThread:1007258 [dir_watcher.py:finish():318] scan save: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/media/table/plot_id 180_table_190_4dc7d947abfe9127ccc0.table.json media/table/plot_id 180_table_190_4dc7d947abfe9127ccc0.table.json
+2022-07-01 06:17:40,385 INFO    SenderThread:1007258 [dir_watcher.py:finish():318] scan save: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/media/table/plot_id 60_table_64_e3808301653ca469311d.table.json media/table/plot_id 60_table_64_e3808301653ca469311d.table.json
+2022-07-01 06:17:40,385 INFO    SenderThread:1007258 [dir_watcher.py:finish():318] scan save: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/media/table/plot_id 100_table_106_28cd5617a12904d1da0c.table.json media/table/plot_id 100_table_106_28cd5617a12904d1da0c.table.json
+2022-07-01 06:17:40,385 INFO    SenderThread:1007258 [dir_watcher.py:finish():318] scan save: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/media/table/plot_id 80_table_85_b7f1b565d1e3760b996a.table.json media/table/plot_id 80_table_85_b7f1b565d1e3760b996a.table.json
+2022-07-01 06:17:40,385 INFO    SenderThread:1007258 [dir_watcher.py:finish():318] scan save: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/media/table/plot_id 120_table_127_62da64382dc3f3b12a8a.table.json media/table/plot_id 120_table_127_62da64382dc3f3b12a8a.table.json
+2022-07-01 06:17:40,385 INFO    SenderThread:1007258 [dir_watcher.py:finish():318] scan save: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/media/table/plot_id 20_table_22_11b43e613df175047c6c.table.json media/table/plot_id 20_table_22_11b43e613df175047c6c.table.json
+2022-07-01 06:17:40,385 INFO    SenderThread:1007258 [sender.py:transition_state():308] send defer: 6
+2022-07-01 06:17:40,385 DEBUG   SenderThread:1007258 [sender.py:send_request():193] send_request: poll_exit
+2022-07-01 06:17:40,385 DEBUG   HandlerThread:1007258 [handler.py:handle_request():124] handle_request: defer
+2022-07-01 06:17:40,386 INFO    HandlerThread:1007258 [handler.py:handle_request_defer():141] handle defer: 6
+2022-07-01 06:17:40,386 DEBUG   SenderThread:1007258 [sender.py:send_request():193] send_request: defer
+2022-07-01 06:17:40,386 INFO    SenderThread:1007258 [sender.py:send_request_defer():304] handle sender defer: 6
+2022-07-01 06:17:40,386 INFO    SenderThread:1007258 [file_pusher.py:finish():177] shutting down file pusher
+2022-07-01 06:17:40,486 DEBUG   HandlerThread:1007258 [handler.py:handle_request():124] handle_request: poll_exit
+2022-07-01 06:17:40,487 DEBUG   SenderThread:1007258 [sender.py:send_request():193] send_request: poll_exit
+2022-07-01 06:17:40,588 DEBUG   HandlerThread:1007258 [handler.py:handle_request():124] handle_request: poll_exit
+2022-07-01 06:17:40,588 DEBUG   SenderThread:1007258 [sender.py:send_request():193] send_request: poll_exit
+2022-07-01 06:17:40,689 DEBUG   HandlerThread:1007258 [handler.py:handle_request():124] handle_request: poll_exit
+2022-07-01 06:17:40,689 DEBUG   SenderThread:1007258 [sender.py:send_request():193] send_request: poll_exit
+2022-07-01 06:17:40,697 INFO    Thread-43 :1007258 [upload_job.py:push():137] Uploaded file /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/output.log
+2022-07-01 06:17:40,709 INFO    Thread-46 :1007258 [upload_job.py:push():137] Uploaded file /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/config.yaml
+2022-07-01 06:17:40,723 INFO    Thread-45 :1007258 [upload_job.py:push():137] Uploaded file /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/requirements.txt
+2022-07-01 06:17:40,785 INFO    Thread-44 :1007258 [upload_job.py:push():137] Uploaded file /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/files/wandb-summary.json
+2022-07-01 06:17:40,790 DEBUG   HandlerThread:1007258 [handler.py:handle_request():124] handle_request: poll_exit
+2022-07-01 06:17:40,790 DEBUG   SenderThread:1007258 [sender.py:send_request():193] send_request: poll_exit
+2022-07-01 06:17:40,891 DEBUG   HandlerThread:1007258 [handler.py:handle_request():124] handle_request: poll_exit
+2022-07-01 06:17:40,891 DEBUG   SenderThread:1007258 [sender.py:send_request():193] send_request: poll_exit
+2022-07-01 06:17:40,985 INFO    Thread-7  :1007258 [sender.py:transition_state():308] send defer: 7
+2022-07-01 06:17:40,986 DEBUG   HandlerThread:1007258 [handler.py:handle_request():124] handle_request: defer
+2022-07-01 06:17:40,986 INFO    HandlerThread:1007258 [handler.py:handle_request_defer():141] handle defer: 7
+2022-07-01 06:17:40,986 DEBUG   SenderThread:1007258 [sender.py:send_request():193] send_request: defer
+2022-07-01 06:17:40,986 INFO    SenderThread:1007258 [sender.py:send_request_defer():304] handle sender defer: 7
+2022-07-01 06:17:40,992 DEBUG   HandlerThread:1007258 [handler.py:handle_request():124] handle_request: poll_exit
+2022-07-01 06:17:41,426 INFO    SenderThread:1007258 [sender.py:transition_state():308] send defer: 8
+2022-07-01 06:17:41,427 DEBUG   SenderThread:1007258 [sender.py:send_request():193] send_request: poll_exit
+2022-07-01 06:17:41,427 DEBUG   HandlerThread:1007258 [handler.py:handle_request():124] handle_request: defer
+2022-07-01 06:17:41,427 INFO    HandlerThread:1007258 [handler.py:handle_request_defer():141] handle defer: 8
+2022-07-01 06:17:41,427 DEBUG   SenderThread:1007258 [sender.py:send_request():193] send_request: defer
+2022-07-01 06:17:41,427 INFO    SenderThread:1007258 [sender.py:send_request_defer():304] handle sender defer: 8
+2022-07-01 06:17:41,427 INFO    SenderThread:1007258 [sender.py:transition_state():308] send defer: 9
+2022-07-01 06:17:41,428 DEBUG   HandlerThread:1007258 [handler.py:handle_request():124] handle_request: defer
+2022-07-01 06:17:41,428 DEBUG   SenderThread:1007258 [sender.py:send():179] send: final
+2022-07-01 06:17:41,428 INFO    HandlerThread:1007258 [handler.py:handle_request_defer():141] handle defer: 9
+2022-07-01 06:17:41,428 DEBUG   SenderThread:1007258 [sender.py:send():179] send: footer
+2022-07-01 06:17:41,428 DEBUG   SenderThread:1007258 [sender.py:send_request():193] send_request: defer
+2022-07-01 06:17:41,428 INFO    SenderThread:1007258 [sender.py:send_request_defer():304] handle sender defer: 9
+2022-07-01 06:17:41,527 DEBUG   HandlerThread:1007258 [handler.py:handle_request():124] handle_request: poll_exit
+2022-07-01 06:17:41,528 DEBUG   SenderThread:1007258 [sender.py:send_request():193] send_request: poll_exit
+2022-07-01 06:17:41,528 INFO    SenderThread:1007258 [file_pusher.py:join():182] waiting for file pusher
+2022-07-01 06:17:41,528 DEBUG   HandlerThread:1007258 [handler.py:handle_request():124] handle_request: get_summary
+2022-07-01 06:17:41,534 DEBUG   HandlerThread:1007258 [handler.py:handle_request():124] handle_request: sampled_history
+2022-07-01 06:17:41,535 DEBUG   HandlerThread:1007258 [handler.py:handle_request():124] handle_request: shutdown
+2022-07-01 06:17:41,536 INFO    HandlerThread:1007258 [handler.py:finish():638] shutting down handler
+2022-07-01 06:17:42,428 INFO    WriterThread:1007258 [datastore.py:close():288] close: /home/v-linyukong/work/conform_discriminator/wandb/run-20220701_061030-gg6d0f7h/run-gg6d0f7h.wandb
+2022-07-01 06:17:42,528 INFO    SenderThread:1007258 [sender.py:finish():945] shutting down sender
+2022-07-01 06:17:42,528 INFO    SenderThread:1007258 [file_pusher.py:finish():177] shutting down file pusher
+2022-07-01 06:17:42,528 INFO    SenderThread:1007258 [file_pusher.py:join():182] waiting for file pusher
+2022-07-01 06:17:42,529 INFO    MainThread:1007258 [internal.py:handle_exit():78] Internal process exited

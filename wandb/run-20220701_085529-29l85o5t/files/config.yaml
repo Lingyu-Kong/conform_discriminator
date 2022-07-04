@@ -1,0 +1,332 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.10.33
+    framework: torch
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    python_version: 3.8.13
+    t:
+      1:
+      - 1
+      2:
+      - 1
+      3:
+      - 1
+      4: 3.8.13
+      5: 0.10.33
+      8:
+      - 5
+    visualize:
+      id0:
+        panel_config:
+          fieldSettings:
+            lineKey: lineKey
+            lineVal: lineVal
+            step: step
+          panelDefId: wandb/lineseries/v0
+          stringSettings:
+            title: VS
+            xname: x
+          transform:
+            name: tableWithLeafColNames
+          userQuery:
+            queryFields:
+            - args:
+              - name: runSets
+                value: ${runSets}
+              fields:
+              - fields: []
+                name: id
+              - fields: []
+                name: name
+              - fields: []
+                name: _defaultColorIndex
+              - args:
+                - name: tableKey
+                  value: id0_table
+                fields: []
+                name: summaryTable
+              name: runSets
+        panel_type: Vega2
+      id100:
+        panel_config:
+          fieldSettings:
+            lineKey: lineKey
+            lineVal: lineVal
+            step: step
+          panelDefId: wandb/lineseries/v0
+          stringSettings:
+            title: VS
+            xname: x
+          transform:
+            name: tableWithLeafColNames
+          userQuery:
+            queryFields:
+            - args:
+              - name: runSets
+                value: ${runSets}
+              fields:
+              - fields: []
+                name: id
+              - fields: []
+                name: name
+              - fields: []
+                name: _defaultColorIndex
+              - args:
+                - name: tableKey
+                  value: id100_table
+                fields: []
+                name: summaryTable
+              name: runSets
+        panel_type: Vega2
+      id120:
+        panel_config:
+          fieldSettings:
+            lineKey: lineKey
+            lineVal: lineVal
+            step: step
+          panelDefId: wandb/lineseries/v0
+          stringSettings:
+            title: VS
+            xname: x
+          transform:
+            name: tableWithLeafColNames
+          userQuery:
+            queryFields:
+            - args:
+              - name: runSets
+                value: ${runSets}
+              fields:
+              - fields: []
+                name: id
+              - fields: []
+                name: name
+              - fields: []
+                name: _defaultColorIndex
+              - args:
+                - name: tableKey
+                  value: id120_table
+                fields: []
+                name: summaryTable
+              name: runSets
+        panel_type: Vega2
+      id140:
+        panel_config:
+          fieldSettings:
+            lineKey: lineKey
+            lineVal: lineVal
+            step: step
+          panelDefId: wandb/lineseries/v0
+          stringSettings:
+            title: VS
+            xname: x
+          transform:
+            name: tableWithLeafColNames
+          userQuery:
+            queryFields:
+            - args:
+              - name: runSets
+                value: ${runSets}
+              fields:
+              - fields: []
+                name: id
+              - fields: []
+                name: name
+              - fields: []
+                name: _defaultColorIndex
+              - args:
+                - name: tableKey
+                  value: id140_table
+                fields: []
+                name: summaryTable
+              name: runSets
+        panel_type: Vega2
+      id160:
+        panel_config:
+          fieldSettings:
+            lineKey: lineKey
+            lineVal: lineVal
+            step: step
+          panelDefId: wandb/lineseries/v0
+          stringSettings:
+            title: VS
+            xname: x
+          transform:
+            name: tableWithLeafColNames
+          userQuery:
+            queryFields:
+            - args:
+              - name: runSets
+                value: ${runSets}
+              fields:
+              - fields: []
+                name: id
+              - fields: []
+                name: name
+              - fields: []
+                name: _defaultColorIndex
+              - args:
+                - name: tableKey
+                  value: id160_table
+                fields: []
+                name: summaryTable
+              name: runSets
+        panel_type: Vega2
+      id180:
+        panel_config:
+          fieldSettings:
+            lineKey: lineKey
+            lineVal: lineVal
+            step: step
+          panelDefId: wandb/lineseries/v0
+          stringSettings:
+            title: VS
+            xname: x
+          transform:
+            name: tableWithLeafColNames
+          userQuery:
+            queryFields:
+            - args:
+              - name: runSets
+                value: ${runSets}
+              fields:
+              - fields: []
+                name: id
+              - fields: []
+                name: name
+              - fields: []
+                name: _defaultColorIndex
+              - args:
+                - name: tableKey
+                  value: id180_table
+                fields: []
+                name: summaryTable
+              name: runSets
+        panel_type: Vega2
+      id20:
+        panel_config:
+          fieldSettings:
+            lineKey: lineKey
+            lineVal: lineVal
+            step: step
+          panelDefId: wandb/lineseries/v0
+          stringSettings:
+            title: VS
+            xname: x
+          transform:
+            name: tableWithLeafColNames
+          userQuery:
+            queryFields:
+            - args:
+              - name: runSets
+                value: ${runSets}
+              fields:
+              - fields: []
+                name: id
+              - fields: []
+                name: name
+              - fields: []
+                name: _defaultColorIndex
+              - args:
+                - name: tableKey
+                  value: id20_table
+                fields: []
+                name: summaryTable
+              name: runSets
+        panel_type: Vega2
+      id40:
+        panel_config:
+          fieldSettings:
+            lineKey: lineKey
+            lineVal: lineVal
+            step: step
+          panelDefId: wandb/lineseries/v0
+          stringSettings:
+            title: VS
+            xname: x
+          transform:
+            name: tableWithLeafColNames
+          userQuery:
+            queryFields:
+            - args:
+              - name: runSets
+                value: ${runSets}
+              fields:
+              - fields: []
+                name: id
+              - fields: []
+                name: name
+              - fields: []
+                name: _defaultColorIndex
+              - args:
+                - name: tableKey
+                  value: id40_table
+                fields: []
+                name: summaryTable
+              name: runSets
+        panel_type: Vega2
+      id60:
+        panel_config:
+          fieldSettings:
+            lineKey: lineKey
+            lineVal: lineVal
+            step: step
+          panelDefId: wandb/lineseries/v0
+          stringSettings:
+            title: VS
+            xname: x
+          transform:
+            name: tableWithLeafColNames
+          userQuery:
+            queryFields:
+            - args:
+              - name: runSets
+                value: ${runSets}
+              fields:
+              - fields: []
+                name: id
+              - fields: []
+                name: name
+              - fields: []
+                name: _defaultColorIndex
+              - args:
+                - name: tableKey
+                  value: id60_table
+                fields: []
+                name: summaryTable
+              name: runSets
+        panel_type: Vega2
+      id80:
+        panel_config:
+          fieldSettings:
+            lineKey: lineKey
+            lineVal: lineVal
+            step: step
+          panelDefId: wandb/lineseries/v0
+          stringSettings:
+            title: VS
+            xname: x
+          transform:
+            name: tableWithLeafColNames
+          userQuery:
+            queryFields:
+            - args:
+              - name: runSets
+                value: ${runSets}
+              fields:
+              - fields: []
+                name: id
+              - fields: []
+                name: name
+              - fields: []
+                name: _defaultColorIndex
+              - args:
+                - name: tableKey
+                  value: id80_table
+                fields: []
+                name: summaryTable
+              name: runSets
+        panel_type: Vega2

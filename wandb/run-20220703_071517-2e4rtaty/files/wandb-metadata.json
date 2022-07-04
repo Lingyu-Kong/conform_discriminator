@@ -1,0 +1,24 @@
+{
+    "os": "Linux-5.13.0-1031-azure-x86_64-with-glibc2.17",
+    "python": "3.8.13",
+    "heartbeatAt": "2022-07-03T07:15:17.713045",
+    "startedAt": "2022-07-03T07:15:17.125462",
+    "docker": null,
+    "gpu": "Tesla T4",
+    "gpu_count": 1,
+    "cpu_count": 16,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "dmcg_main.py",
+    "codePath": "dmcg_main.py",
+    "git": {
+        "remote": null,
+        "commit": "c3b5acfbbbc0dcb13169b3cb40a64bc73f67ce98"
+    },
+    "email": "kly20@mails.tsinghua.edu.cn",
+    "root": "/home/v-linyukong/work/conform_discriminator",
+    "host": "GCRAZGDL2360",
+    "username": "FAREAST.v-linyukong",
+    "executable": "/home/v-linyukong/miniconda3/envs/crystal_generation/bin/python"
+}

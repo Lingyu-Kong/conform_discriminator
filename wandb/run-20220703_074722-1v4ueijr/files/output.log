@@ -1,0 +1,24 @@
+Traceback (most recent call last):
+  File "dmcg_main.py", line 118, in <module>
+    intrinsic_loss,extrinsic_loss,intrinsic_rewards,extrinsic_rewards = discriminator.compute_loss_and_train(conforms, energy)
+  File "/home/v-linyukong/work/conform_discriminator/DMCG_Discriminator/dmcg_discriminator.py", line 53, in compute_loss_and_train
+    intrinsic_predict, extrinsic_predict = self.predict(conforms)
+  File "/home/v-linyukong/work/conform_discriminator/DMCG_Discriminator/dmcg_discriminator.py", line 40, in predict
+    extrinsic_predict=self.extrinsic_model(conforms)
+  File "/home/v-linyukong/miniconda3/envs/crystal_generation/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/v-linyukong/work/conform_discriminator/DMCG_model/dmcg_nn.py", line 133, in forward
+    node_attr_1,edge_attr_1,global_attr_1=layer(
+  File "/home/v-linyukong/miniconda3/envs/crystal_generation/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/v-linyukong/work/conform_discriminator/DMCG_model/meta_layer.py", line 67, in forward
+    sent_attributes=self.node_attn(node_attr[row],node_attr[col],edge_attr,row,node_attr.size(0))
+  File "/home/v-linyukong/miniconda3/envs/crystal_generation/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/v-linyukong/work/conform_discriminator/DMCG_model/meta_layer.py", line 215, in forward
+    x = self.w1(x).view(-1, self.num_heads, self.head_dim)
+  File "/home/v-linyukong/miniconda3/envs/crystal_generation/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/v-linyukong/miniconda3/envs/crystal_generation/lib/python3.8/site-packages/torch/nn/modules/linear.py", line 103, in forward
+    return F.linear(input, self.weight, self.bias)
+RuntimeError: CUDA out of memory. Tried to allocate 24.00 MiB (GPU 0; 14.61 GiB total capacity; 13.51 GiB already allocated; 4.56 MiB free; 13.54 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF

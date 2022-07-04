@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "dmcg_main.py", line 101, in <module>
+    discriminator=DMCG_Discriminator(intrinsic_params,
+  File "/home/v-linyukong/work/conform_discriminator/DMCG_Discriminator/dmcg_discriminator.py", line 21, in __init__
+    self.intrinsic_model = GNN(**intrinsic_model_params)
+  File "/home/v-linyukong/work/conform_discriminator/DMCG_model/dmcg_nn.py", line 85, in __init__
+    MetaLayer(
+TypeError: __init__() got an unexpected keyword argument 'aggregate_nodes_for_edge_fn'

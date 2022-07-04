@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "main.py", line 116, in <module>
+    discriminator = Discriminator(intrinsic_target_params,
+  File "/home/v-linyukong/work/conform_discriminator/discriminator.py", line 22, in __init__
+    self.intrinsic_target_model = IGNN(**intrinsic_target_params)
+  File "/home/v-linyukong/work/conform_discriminator/model/ignn.py", line 46, in __init__
+    self.global_mlp=nn.Sequential(nn.Linear(num_nodes,global_layer_size),
+  File "/home/v-linyukong/miniconda3/envs/crystal_generation/lib/python3.8/site-packages/torch/nn/modules/module.py", line 907, in to
+    return self._apply(convert)
+  File "/home/v-linyukong/miniconda3/envs/crystal_generation/lib/python3.8/site-packages/torch/nn/modules/module.py", line 578, in _apply
+    module._apply(fn)
+  File "/home/v-linyukong/miniconda3/envs/crystal_generation/lib/python3.8/site-packages/torch/nn/modules/module.py", line 601, in _apply
+    param_applied = fn(param)
+  File "/home/v-linyukong/miniconda3/envs/crystal_generation/lib/python3.8/site-packages/torch/nn/modules/module.py", line 905, in convert
+    return t.to(device, dtype if t.is_floating_point() or t.is_complex() else None, non_blocking)
+KeyboardInterrupt

@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "main.py", line 144, in <module>
+    wandb.log({"pr": wandb.plot.pr_curve(-relax_energy.numpy(), np.add(intrinsic_reward, extrinsic_reward))})
+  File "/home/v-linyukong/miniconda3/envs/crystal_generation/lib/python3.8/site-packages/wandb/plot/pr_curve.py", line 62, in pr_curve
+    binarized_y_true = preprocessing.label_binarize(y_true, classes=classes)
+  File "/home/v-linyukong/miniconda3/envs/crystal_generation/lib/python3.8/site-packages/sklearn/preprocessing/_label.py", line 554, in label_binarize
+    raise ValueError(
+ValueError: continuous target data is not supported with label binarization
